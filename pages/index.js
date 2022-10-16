@@ -22,9 +22,10 @@ export default function Home() {
       <main className="!bg-scroll block overflow-hidden w-full">
         <div className="pt-[110px] pb-[40px] !bg-scroll relative">
           <div className="relative z-2 !bg-scroll maxmd:px-[1.25rem] px-10">
+            {/* LEFT CONTENT */}
             <div className="!bg-scroll w-full max-w-[70rem] mx-auto">
               <div
-                className="pr-0 flex-wrap maxlg:mt-0 flex mx-auto w-full mt-[4%]
+                className="pr-0 maxmd:flex-wrap maxlg:mt-0 flex mx-auto w-full mt-[4%]
                 justify-between items-center maxlg:top-0 relative max-w-[36rem]"
               >
                 <div
@@ -39,9 +40,114 @@ export default function Home() {
                     Plans & Pricing
                   </h1>
                 </div>
-                <div>left2</div>
+                <div
+                  className="!bg-scroll maxxs:mt-[50px] justify-center maxmd:mt-[60px]
+                justify-end flex-1 relative flex items-center"
+                >
+                  <div
+                    className="!bg-scroll text-[17px] font-[600] tracking-[1.22px]
+                  uppercase"
+                  >
+                    Monthly
+                  </div>
+                  <div
+                    className="!bg-scroll cursor-pointer touch-manipulation flex
+                  w-[50px] h-[29px] mx-[28px] px-0 items-center rounded-[200px]
+                  bg-[#0b289]"
+                  >
+                    <div
+                      className="!bg-scroll w-[25px] h-[25px] px-[2px] rounded-[200px]
+                    bg-white"
+                    ></div>
+                  </div>
+                  <div
+                    className="!bg-scroll relative z-2 opacity-[.65] text-[#4c4d5f]
+                  text-[16px] font-[600] tracking-[1.22px] uppercase"
+                  >
+                    Yearly
+                  </div>
+                </div>
               </div>
-              <div className="pricing_monthly">MONTHLY</div>
+              {/* PRICING MONTHLY */}
+              <div className="flex !bg-scroll maxlg:flex-col pt-[40px] justify-between flex-wrap">
+                <div
+                  class="!bg-scroll maxxs:px-[23px] maxxs:pb-[40px] maxlg:w-full maxlg:mb-[30px]
+                maxlg:py-[50px] relative flex overflow-hidden w-[32%] py-[6%] px-[4%] flex-col
+                border-[0.3px] border-solid border-[rgba(2,4,69, 0.15)] rounded-[4px]
+                shadow-[0_0_68_px_0_rgba(2,4,69,8%)]"
+                >
+                  <div
+                    class="!bg-scroll maxmd:text-[1.5rem] font-[600] my-0 text-[1.625rem]
+                  leading-[1.4] font-[700]"
+                  >
+                    Starter
+                  </div>
+                  <div class="!bg-scroll max-w-[90%]">
+                    Ideal for freelancers and contractors just starting out.
+                  </div>
+                  <div class="!bg-scroll w-full mt-[20px] border-b-[2px] border-b-solid border-b-[#01b289]">
+                    <div
+                      class="!bg-scroll maxmd:text-[70px] maxmd:leading-[80px] flex items-end text-[62px]
+                    leading-[72px] font-[600]"
+                    >
+                      <span
+                        class="!bg-scroll maxxs:text-[28px] leading-[43px] maxmd:leading-[49px]
+                      relative top-[10px] mr-[10px] self-start text-[30px] leading-[28px] font-[400]"
+                      >
+                        $
+                      </span>
+                      24
+                      <span
+                        class="!bg-scroll my-0 mr-0 maxmd:text-[1.5rem] maxmd:ml-[1.25rem]
+                      maxlg:my-0 maxlg:mr-0 maxlg:ml-[1.5rem] uppercase font-[400] text-[1.625rem]
+                      leading-[1.4] font-[700] m-[0.9375rem]"
+                      >
+                        /month
+                      </span>
+                    </div>
+                  </div>
+                  <div class="plan-features-div">
+                    <div class="tick-div">
+                      <div>All Templates</div>
+                    </div>
+                    <div class="tick-div">
+                      <div>Unlimited Clients &amp; Projects</div>
+                    </div>
+                    <div class="tick-div">
+                      <div>Invoicing &amp; Payments</div>
+                    </div>
+                    <div class="tick-div">
+                      <div>Proposals &amp; Contracts</div>
+                    </div>
+                    <div class="tick-div">
+                      <div>Tasks &amp; Time Tracking</div>
+                    </div>
+                    <div class="tick-div">
+                      <div>Client CRM</div>
+                    </div>
+                    <div class="tick-div">
+                      <div>Expense Tracking</div>
+                    </div>
+                    <div class="tick-div">
+                      <div>Up to 5 Project Collaborators</div>
+                    </div>
+                  </div>
+                  <div class="margin-top auto">
+                    <a
+                      id="plan-2"
+                      data-request-account-btn="true"
+                      href="https://app.hellobonsai.com/users/sign_up"
+                      class="wide-cta w-button"
+                    >
+                      Start Free
+                    </a>
+                  </div>
+                </div>{" "}
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+              </div>
+              {/* PRICING YEARLY */}
               <div className="pricing_yearly">YEARLY</div>
             </div>
           </div>
