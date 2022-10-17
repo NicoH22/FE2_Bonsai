@@ -12,10 +12,10 @@ export default function Navbar() {
                         <div className="relative cursor-pointer !bg-scroll touch-manipulation maxlg:mr-0 maxlg:p-y-[16px] maxlg:border-b-1 maxlg:border-b-solid maxlg:border-b-[#c3c3c3] relative flex mr-[40px] justify-between items-center text-[#4c4d5f] text-[17px] leading-[22px]">
                             <div className="maxlg:pt-0 maxlg:pb-0 pr-[8px] flex py-[16px] pr-[12px] pl-0 justify-between text-[#4c4d5f] text-[17px] font-[400]">Product</div>
                             <div className="relative mr-0 mr-[6px] bg-50% bg-auto bg-no-repeat bg-transparent absolute top-0 right-0 bottom-0 my-auto ml-auto mr-[20px] w-[1em] h-[1em] not-italic font-normal normal-nums normal-case leading-none "></div>
-                            <div className="main-nav-dropdown-wrapper hidden">
-                                <div className="main-nav-left-content">
-                                    <div className="main-nav-inside-dropdown-toggle arrow-bg">
-                                        <div className="main-nav-inside-content-wrapper">
+                            <div className="hidden absolute left-[-150%] top-full flex justify-between">
+                                <div className="fixed left-0 top-0 right-0 bottom-0 z-[2] hidden w-full h-screen mt-[76px] justify-start items-center">
+                                    <div className="maxmd:max-w-none maxmd:items-start maxlg:max-w-none maxlg:items-start maxlg:text-left flex w-full max-w-[352px] min-w-[350px] pt-[40px] pb-0 px-[40px] flex-col justify-center">
+                                        <div className="border-transparent maxmd:flex maxmd:flex-col maxmd:items-start maxmd:text-left w-full pb-[40px] border-b border-solid border-transparent">
                                             <div className="main-nav-inside-dropdown-heading">Bonsai Workflow</div>
                                             <div className="main-nav-inside-dropdown-subheading">Look professional, win more clients and manage your business from one place</div>
                                         </div>
