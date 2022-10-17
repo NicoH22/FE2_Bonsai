@@ -10,8 +10,8 @@ export default function Navbar() {
                 <nav className="translate-x-0 translate-y-0 maxlg:hidden !bg-scroll maxxs:flex maxxs:h-screen maxxs:pt-[105px] maxxs:px-[30px] maxxs:flex-col maxmd:flex maxmd:w-full maxmd:px-[50px] maxmd:flex-col maxlg:left-0 maxlg:top-0 maxlg:right-0 maxlg:bottom-0 maxlg:z-[9998] maxlg:block maxlg:w-screen maxlg:h-full maxlg:max-w-full maxlg:min-h-screen maxlg:pt-[123px] maxlg:px-[40px] maxlg:justify-center maxlg:bg-[#fff] flex w-full max-w-[75%] justify-end items-center relative float-right block">
                     <div className="!bg-scroll maxlg:flex-col flex mr-[5%] justify-between">
                         <div className="relative cursor-pointer !bg-scroll touch-manipulation maxlg:mr-0 maxlg:p-y-[16px] maxlg:border-b-1 maxlg:border-b-solid maxlg:border-b-[#c3c3c3] relative flex mr-[40px] justify-between items-center text-[#4c4d5f] text-[17px] leading-[22px]">
-                            <div className="main-nav-dropdown-toggle">Product</div>
-                            <div className="dropdown-arrow no-margin-right w-icon-dropdown-toggle"></div>
+                            <div className="maxlg:pt-0 maxlg:pb-0 pr-[8px] flex py-[16px] pr-[12px] pl-0 justify-between text-[#4c4d5f] text-[17px] font-[400]">Product</div>
+                            <div className="relative mr-0 mr-[6px] bg-50% bg-auto bg-no-repeat bg-transparent absolute top-0 right-0 bottom-0 my-auto ml-auto mr-[20px] w-[1em] h-[1em] not-italic font-normal normal-nums normal-case leading-none "></div>
                             <div className="main-nav-dropdown-wrapper hidden">
                                 <div className="main-nav-left-content">
                                     <div className="main-nav-inside-dropdown-toggle arrow-bg">
