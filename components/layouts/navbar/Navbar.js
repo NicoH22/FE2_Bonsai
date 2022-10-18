@@ -16,13 +16,13 @@ export default function Navbar() {
                                 <div className="fixed left-0 top-0 right-0 bottom-0 z-[2] hidden w-full h-screen mt-[76px] justify-start items-center">
                                     <div className="maxmd:max-w-none maxmd:items-start maxlg:max-w-none maxlg:items-start maxlg:text-left flex w-full max-w-[352px] min-w-[350px] pt-[40px] pb-0 px-[40px] flex-col justify-center">
                                         <div className="border-transparent maxmd:flex maxmd:flex-col maxmd:items-start maxmd:text-left w-full pb-[40px] border-b border-solid border-transparent">
-                                            <div className="main-nav-inside-dropdown-heading">Bonsai Workflow</div>
-                                            <div className="main-nav-inside-dropdown-subheading">Look professional, win more clients and manage your business from one place</div>
+                                            <div className="!bg-scroll mb-[10px] text-[#292a2d] text-[22px] leading-[26px] ">Bonsai Workflow</div>
+                                            <div className="!bg-scroll text-[#4d4d4d]">Look professional, win more clients and manage your business from one place</div>
                                         </div>
                                     </div>
-                                    <a className="main-nav-inside-dropdown-toggle w-inline-block">
-                                        <div className="main-nav-inside-content-wrapper">
-                                            <div className="main-nav-inside-dropdown-heading">Bonsai Tax</div>
+                                    <a className="!bg-scroll maxmd:max-w-none maxlg:max-w-none maxlg:items-start text-left flex w-full max-w-[352px] min-w-[350px] pt-[40px] px-[40px] pb-0 flex-col justify-center max-w-full inline-block bg-transparent text-[#00b289] cursor-pointer">
+                                        <div className="bg-transparent !bg-scroll maxmd:flex maxmd:flex-col maxmd:items-start maxmd:text-left w-full pb-[40px] border-b border-solid border-transparent">
+                                            <div className="!bg-scroll mb-[10px] text-[#292a2d] text-[22px] leading-[26px]">Bonsai Tax</div>
                                             <div className="main-nav-inside-dropdown-subheading">&quot;Track expenses, maximize tax write-offs, and estimate taxes without the headache&quot;</div>
                                         </div>
                                     </a>
@@ -421,6 +421,11 @@ export default function Navbar() {
                         </div>
                     </div>
                 </nav>
+                <div className="maxlg:block maxlg:!bg-scroll maxlg:z-[9999] maxlg:bg-transparent overflow-hidden w-[60px] h-[60px] bg-[#4de79d] relative float-right p-[18px] t-[24px] hidden cursor-pointer select-none">
+                    <div className="maxlg:h-[3px] maxlg:rounded-[10px] maxlg:bg-[#4c4d5f] maxlg:text-[#4c4d5f] bg-[#fff] top-[18px] !bg-scroll absolute left-0 top-[10px] right-0 z-[2] block w-[35px] h-[2px] mr-auto ml-auto bg-[#7a7a7a]"></div>
+                    <div className="opacity-100 maxlg:h-[3px] maxlg:rounded-[10px] maxlg:bg-[#4c4d5f] bg-[#fff] top-[28px] !bg-scroll absolute left-0 top-[20px] right-0 z-[1] block w-[35px] h-[2px] mr-auto ml-auto bg-[#7a7a7a]"></div>
+                    <div className="maxlg:h-[3px] maxlg:rounded-[10px] maxlg:bg-[#4c4d5f] bg-[#fff] top-[38px] !bg-scroll absolute left-0 top-[30px] right-0 z-[2] block w-[35px] h-[2px] mr-auto ml-auto bg-[#7a7a7a]"></div>
+                </div>
             </div>
         </div>
         <div></div>
