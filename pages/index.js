@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import { FaCheck } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -70,6 +71,7 @@ export default function Home() {
               </div>
               {/* PRICING MONTHLY */}
               <div className="flex !bg-scroll maxlg:flex-col pt-[40px] justify-between flex-wrap">
+                {/* PLAN DIV 1 */}
                 <div
                   class="!bg-scroll maxxs:px-[23px] maxxs:pb-[40px] maxlg:w-full maxlg:mb-[30px]
                 maxlg:py-[50px] relative flex overflow-hidden w-[32%] py-[6%] px-[4%] flex-col
@@ -106,46 +108,333 @@ export default function Home() {
                       </span>
                     </div>
                   </div>
-                  <div class="plan-features-div">
-                    <div class="tick-div">
+                  <div class="!bg-scroll mb-[25px] pt-[40px]">
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
                       <div>All Templates</div>
                     </div>
-                    <div class="tick-div">
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
                       <div>Unlimited Clients &amp; Projects</div>
                     </div>
-                    <div class="tick-div">
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
                       <div>Invoicing &amp; Payments</div>
                     </div>
-                    <div class="tick-div">
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
                       <div>Proposals &amp; Contracts</div>
                     </div>
-                    <div class="tick-div">
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
                       <div>Tasks &amp; Time Tracking</div>
                     </div>
-                    <div class="tick-div">
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
                       <div>Client CRM</div>
                     </div>
-                    <div class="tick-div">
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
                       <div>Expense Tracking</div>
                     </div>
-                    <div class="tick-div">
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
                       <div>Up to 5 Project Collaborators</div>
                     </div>
                   </div>
-                  <div class="margin-top auto">
+                  <div class="mt-auto !bg-scroll mx-0 ml-0">
                     <a
-                      id="plan-2"
-                      data-request-account-btn="true"
-                      href="https://app.hellobonsai.com/users/sign_up"
-                      class="wide-cta w-button"
+                      className="!bg-scroll maxmd:text-[15px] w-full py-[22px] px-[25px]
+                    rounded-[4px] bg-[#00b289] font-bold text-center tracking-[.7px]
+                    no-underline uppercase inline-block border-none cursor-pointer"
                     >
                       Start Free
                     </a>
                   </div>
-                </div>{" "}
-                <div>2</div>
-                <div>3</div>
-                <div>4</div>
+                </div>
+                {/* PLAN DIV 2 */}
+                <div
+                  class="!bg-scroll maxxs:px-[23px] maxxs:pb-[40px] maxlg:w-full maxlg:mb-[30px]
+                maxlg:py-[50px] relative flex overflow-hidden w-[32%] py-[6%] px-[4%] flex-col
+                border-[0.3px] border-solid border-[rgba(2,4,69, 0.15)] rounded-[4px]
+                shadow-[0_0_68_px_0_rgba(2,4,69,8%)]"
+                >
+                  <div
+                    class="!bg-scroll maxmd:text-[1.5rem] font-[600] my-0 text-[1.625rem]
+                  leading-[1.4] font-[700]"
+                  >
+                    Professionnal
+                  </div>
+                  <div class="!bg-scroll max-w-[90%]">
+                    Everything a growing independent business needs to thrive.{" "}
+                  </div>
+                  <div class="!bg-scroll w-full mt-[20px] border-b-[2px] border-b-solid border-b-[#01b289]">
+                    <div
+                      class="!bg-scroll maxmd:text-[70px] maxmd:leading-[80px] flex items-end text-[62px]
+                    leading-[72px] font-[600]"
+                    >
+                      <span
+                        class="!bg-scroll maxxs:text-[28px] leading-[43px] maxmd:leading-[49px]
+                      relative top-[10px] mr-[10px] self-start text-[30px] leading-[28px] font-[400]"
+                      >
+                        $
+                      </span>
+                      39
+                      <span
+                        class="!bg-scroll my-0 mr-0 maxmd:text-[1.5rem] maxmd:ml-[1.25rem]
+                      maxlg:my-0 maxlg:mr-0 maxlg:ml-[1.5rem] uppercase font-[400] text-[1.625rem]
+                      leading-[1.4] font-[700] m-[0.9375rem]"
+                      >
+                        /month
+                      </span>
+                    </div>
+                  </div>
+                  <div class="!bg-scroll mb-[25px] pt-[40px]">
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
+                      <div>Everything in Starter plus...</div>
+                    </div>
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
+                      <div>Custom Branding</div>
+                    </div>
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
+                      <div>Forms & Questionnaires</div>
+                    </div>
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
+                      <div>Workflow Automations</div>
+                    </div>
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
+                      <div>Client Portal</div>
+                    </div>
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
+                      <div>QuickBooks Integration</div>
+                    </div>
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
+                      <div>Calendly Integration</div>
+                    </div>
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
+                      <div>Zapier Integration</div>
+                    </div>
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
+                      <div>Up to 15 Project Collaborators</div>
+                    </div>
+                  </div>
+                  <div class="mt-auto !bg-scroll mx-0 ml-0">
+                    <a
+                      className="!bg-scroll maxmd:text-[15px] w-full py-[22px] px-[25px]
+                    rounded-[4px] bg-[#00b289] font-bold text-center tracking-[.7px]
+                    no-underline uppercase inline-block border-none cursor-pointer"
+                    >
+                      Start Free
+                    </a>
+                  </div>
+                </div>
+                {/* PLAN DIV 3 */}
+                <div
+                  class="!bg-scroll maxxs:px-[23px] maxxs:pb-[40px] maxlg:w-full maxlg:mb-[30px]
+                maxlg:py-[50px] relative flex overflow-hidden w-[32%] py-[6%] px-[4%] flex-col
+                border-[0.3px] border-solid border-[rgba(2,4,69, 0.15)] rounded-[4px]
+                shadow-[0_0_68_px_0_rgba(2,4,69,8%)]"
+                >
+                  <div
+                    class="!bg-scroll maxmd:text-[1.5rem] font-[600] my-0 text-[1.625rem]
+                  leading-[1.4] font-[700]"
+                  >
+                    Business
+                  </div>
+                  <div class="!bg-scroll max-w-[90%]">
+                    The perfect package for small businesses and agencies.{" "}
+                  </div>
+                  <div class="!bg-scroll w-full mt-[20px] border-b-[2px] border-b-solid border-b-[#01b289]">
+                    <div
+                      class="!bg-scroll maxmd:text-[70px] maxmd:leading-[80px] flex items-end text-[62px]
+                    leading-[72px] font-[600]"
+                    >
+                      <span
+                        class="!bg-scroll maxxs:text-[28px] leading-[43px] maxmd:leading-[49px]
+                      relative top-[10px] mr-[10px] self-start text-[30px] leading-[28px] font-[400]"
+                      >
+                        $
+                      </span>
+                      79
+                      <span
+                        class="!bg-scroll my-0 mr-0 maxmd:text-[1.5rem] maxmd:ml-[1.25rem]
+                      maxlg:my-0 maxlg:mr-0 maxlg:ml-[1.5rem] uppercase font-[400] text-[1.625rem]
+                      leading-[1.4] font-[700] m-[0.9375rem]"
+                      >
+                        /month
+                      </span>
+                    </div>
+                  </div>
+                  <div class="!bg-scroll mb-[25px] pt-[40px]">
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
+                      <div>Everything in Starter and Professional plus...</div>
+                    </div>
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
+                      <div>Subcontractor Management</div>
+                    </div>
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
+                      <div>Hiring Agreement Templates (1099 contracts)</div>
+                    </div>
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
+                      <div>Subcontractor Onboarding</div>
+                    </div>
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
+                      <div>Talent Pool</div>
+                    </div>
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
+                      <div>3 Team Seats (additional seats $9/month)</div>
+                    </div>
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
+                      <div>Accountant Access</div>
+                    </div>
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
+                      <div>Connect Multiple Bank Accounts</div>
+                    </div>
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
+                      <div>Unlimited Subcontractors</div>
+                    </div>
+                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                      <FaCheck
+                        className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
+                      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
+                      w-[12px]"
+                      />
+                      <div>Unlimited Project Collaborators</div>
+                    </div>
+                  </div>
+                  <div class="mt-auto !bg-scroll mx-0 ml-0">
+                    <a
+                      className="!bg-scroll maxmd:text-[15px] w-full py-[22px] px-[25px]
+                    rounded-[4px] bg-[#00b289] font-bold text-center tracking-[.7px]
+                    no-underline uppercase inline-block border-none cursor-pointer"
+                    >
+                      Start Free
+                    </a>
+                  </div>
+                </div>
+                <div>margin-top4</div>
               </div>
               {/* PRICING YEARLY */}
               <div className="pricing_yearly">YEARLY</div>

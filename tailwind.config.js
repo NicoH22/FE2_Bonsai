@@ -24,7 +24,11 @@ module.exports = {
       maxxs: { max: "479px" },
       // => @media (max-width: 479px) { ... }
     },
-    extend: {},
+    extend: {
+      backgroundPosition: {
+        "50%": "50% 50%",
+      },
+    },
   },
   plugins: [],
 };
