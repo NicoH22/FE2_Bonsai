@@ -23,87 +23,87 @@ export default function Navbar() {
                                     <a className="!bg-scroll maxmd:max-w-none maxlg:max-w-none maxlg:items-start text-left flex w-full max-w-[352px] min-w-[350px] pt-[40px] px-[40px] pb-0 flex-col justify-center max-w-full inline-block bg-transparent text-[#00b289] cursor-pointer">
                                         <div className="bg-transparent !bg-scroll maxmd:flex maxmd:flex-col maxmd:items-start maxmd:text-left w-full pb-[40px] border-b border-solid border-transparent">
                                             <div className="!bg-scroll mb-[10px] text-[#292a2d] text-[22px] leading-[26px]">Bonsai Tax</div>
-                                            <div className="main-nav-inside-dropdown-subheading">&quot;Track expenses, maximize tax write-offs, and estimate taxes without the headache&quot;</div>
+                                            <div className="text-[#4d4d4d]">&quot;Track expenses, maximize tax write-offs, and estimate taxes without the headache&quot;</div>
                                         </div>
                                     </a>
-                                    <a className="main-nav-inside-dropdown-toggle w-inline-block">
-                                        <div className="main-nav-inside-content-wrapper">
-                                            <div className="main-nav-inside-dropdown-heading">Bonsai Cash</div>
-                                            <div className="main-nav-inside-dropdown-subheading">Bonsai&apos;s all in-one financial hub: No fees and lightning fast payouts</div>
+                                    <a className="maxmd:max-w-none maxlg:max-w-none maxlg:items-start maxlg:text-left flex w-full max-w-[352px] max-w-[350px] pt-[40px] pb-0 px-[40px] flex-col justify-center w-full inline-block bg-transparent text-[#00b289] cursor-pointer">
+                                        <div className="border-transparent maxmd:flex maxmd:flex-col maxmd:items-start maxmd:text-left w-full pb-[40px] border border-solid ">
+                                            <div className="mb-[10px] text-[#292a2d] text-[22px] leading-[26px]">Bonsai Cash</div>
+                                            <div className="text-[#4d4d4d]">Bonsai&apos;s all in-one financial hub: No fees and lightning fast payouts</div>
                                         </div>
                                     </a>
                                 </div>
-                                <div className="main-nav-right-content">
-                                    <div className="side-dropdown-grid">
-                                        <a className="side-dropdown-link-block w-inline-block">
-                                            <div className="side-dropdown-inner-link">
+                                <div className="opacity-0 maxlg:fixed maxlg:left-0 maxlg:right-0 maxlg:top-0 maxlg:bottom-0 maxlg:z-[2] maxlg:hidden bg-[#fff]">
+                                    <div className="maxlg:flex maxlg:flex-col maxlg:grid-cols-1 grid h-full p-[10px] auto-cols-fr gap-[16px] grid-cols-1 grid-rows-[auto]">
+                                        <a className="maxlg:min-w-0 flex min-w-[300px] py-[10px] px-[20px] items-center rounded max-w-full inline-block bg-transparent text-[00b289] no-underline cursor-pointer">
+                                            <div className="flex items-start">
                                                 <img />
-                                                <div className="side-dropdown-content">
-                                                    <div className="side-dropdown-heading">Invoices</div>
-                                                    <div className="side-dropdown-text">Get paid faster with automatic invoicing, online payments and more</div>
+                                                <div className="ml-[12px]">
+                                                    <div className="maxlg:font-semibold mb-[10px] text-[#4d4d4d] text-[15px] leading-[18px]">Invoices</div>
+                                                    <div className="text-[#6d6d6d] text-[13px] leading-[13px] font-normal">Get paid faster with automatic invoicing, online payments and more</div>
                                                 </div>
                                             </div>
                                         </a>
-                                        <a className="side-dropdown-link-block w-inline-block">
-                                            <div className="side-dropdown-inner-link">
+                                        <a className="maxlg:min-w-0 flex min-w-[300px] py-[10px] px-[20px] items-center rounded max-w-full inline-block bg-transparent text-[00b289] no-underline cursor-pointer">
+                                            <div className="flex items-start">
                                                 <img />
-                                                <div className="side-dropdown-content">
-                                                    <div className="side-dropdown-heading">Proposals</div>
-                                                    <div className="side-dropdown-text">&quot;Create client-winning proposals with open receipts, custom packages and electronic approvals&quot;</div>
+                                                <div className="ml-[12px]">
+                                                    <div className="maxlg:font-semibold mb-[10px] text-[#4d4d4d] text-[15px] leading-[18px]">Proposals</div>
+                                                    <div className="text-[#6d6d6d] text-[13px] leading-[13px] font-normal">&quot;Create client-winning proposals with open receipts, custom packages and electronic approvals&quot;</div>
                                                 </div>
                                             </div>
                                         </a>
-                                        <a className="side-dropdown-link-block w-inline-block">
-                                            <div className="side-dropdown-inner-link">
+                                        <a className="maxlg:min-w-0 flex min-w-[300px] py-[10px] px-[20px] items-center rounded max-w-full inline-block bg-transparent text-[00b289] no-underline cursor-pointer">
+                                            <div className="flex items-start">
                                                 <img />
-                                                <div className="side-dropdown-content">
-                                                    <div className="side-dropdown-heading">Contracts</div>
-                                                    <div className="side-dropdown-text">&quot;Protect your business with fully-customizable contract templates. Edit and e-sign hassle free.&quot;</div>
+                                                <div className="ml-[12px]">
+                                                    <div className="maxlg:font-semibold mb-[10px] text-[#4d4d4d] text-[15px] leading-[18px]">Contracts</div>
+                                                    <div className="text-[#6d6d6d] text-[13px] leading-[13px] font-normal">&quot;Protect your business with fully-customizable contract templates. Edit and e-sign hassle free.&quot;</div>
                                                 </div>
                                             </div>
                                         </a>
-                                        <a className="side-dropdown-link-block w-inline-block">
-                                            <div className="side-dropdown-inner-link">
+                                        <a className="maxlg:min-w-0 flex min-w-[300px] py-[10px] px-[20px] items-center rounded max-w-full inline-block bg-transparent text-[00b289] no-underline cursor-pointer">
+                                            <div className="flex items-start">
                                                 <img />
-                                                <div className="side-dropdown-content">
-                                                    <div className="side-dropdown-heading">Client CRM</div>
-                                                    <div className="side-dropdown-text">Add leads, manage existing clients and track projects easily fro one place</div>
+                                                <div className="ml-[12px]">
+                                                    <div className="maxlg:font-semibold mb-[10px] text-[#4d4d4d] text-[15px] leading-[18px]">Client CRM</div>
+                                                    <div className="text-[#6d6d6d] text-[13px] leading-[13px] font-normal">Add leads, manage existing clients and track projects easily fro one place</div>
                                                 </div>
                                             </div>
                                         </a>
-                                        <a className="side-dropdown-link-block w-inline-block">
-                                            <div className="side-dropdown-inner-link">
+                                        <a className="maxlg:min-w-0 flex min-w-[300px] py-[10px] px-[20px] items-center rounded max-w-full inline-block bg-transparent text-[00b289] no-underline cursor-pointer">
+                                            <div className="flex items-start">
                                                 <img />
-                                                <div className="side-dropdown-content">
-                                                    <div className="side-dropdown-heading">Forms & Automations</div>
-                                                    <div className="side-dropdown-text">&quot;Boost client intake and automate feedback with custom web forms and questionnaires&quot;</div>
+                                                <div className="ml-[12px]">
+                                                    <div className="maxlg:font-semibold mb-[10px] text-[#4d4d4d] text-[15px] leading-[18px]">Forms & Automations</div>
+                                                    <div className="text-[#6d6d6d] text-[13px] leading-[13px] font-normal">&quot;Boost client intake and automate feedback with custom web forms and questionnaires&quot;</div>
                                                 </div>
                                             </div>
                                         </a>
-                                        <a className="side-dropdown-link-block w-inline-block">
-                                            <div className="side-dropdown-inner-link">
+                                        <a className="maxlg:min-w-0 flex min-w-[300px] py-[10px] px-[20px] items-center rounded max-w-full inline-block bg-transparent text-[00b289] no-underline cursor-pointer">
+                                            <div className="flex items-start">
                                                 <img />
-                                                <div className="side-dropdown-content">
-                                                    <div className="side-dropdown-heading">Time Tracking</div>
-                                                    <div className="side-dropdown-text">&quot;Stay organized with Bonsai&apos;s all-in-one tracket, automated timesheets and billing system&quot;</div>
+                                                <div className="ml-[12px]">
+                                                    <div className="maxlg:font-semibold mb-[10px] text-[#4d4d4d] text-[15px] leading-[18px]">Time Tracking</div>
+                                                    <div className="text-[#6d6d6d] text-[13px] leading-[13px] font-normal">&quot;Stay organized with Bonsai&apos;s all-in-one tracket, automated timesheets and billing system&quot;</div>
                                                 </div>
                                             </div>
                                         </a>
-                                        <a className="side-dropdown-link-block w-inline-block">
-                                            <div className="side-dropdown-inner-link">
+                                        <a className="maxlg:min-w-0 flex min-w-[300px] py-[10px] px-[20px] items-center rounded max-w-full inline-block bg-transparent text-[00b289] no-underline cursor-pointer">
+                                            <div className="flex items-start">
                                                 <img />
-                                                <div className="side-dropdown-content">
-                                                    <div className="side-dropdown-heading">Accounting</div>
-                                                    <div className="side-dropdown-text">&quot;Manage your finances easily with income reports, expense tracking, tax reminders and more&quot;</div>
+                                                <div className="ml-[12px]">
+                                                    <div className="maxlg:font-semibold mb-[10px] text-[#4d4d4d] text-[15px] leading-[18px]">Accounting</div>
+                                                    <div className="text-[#6d6d6d] text-[13px] leading-[13px] font-normal">&quot;Manage your finances easily with income reports, expense tracking, tax reminders and more&quot;</div>
                                                 </div>
                                             </div>
                                         </a>
-                                        <a className="side-dropdown-link-block w-inline-block">
-                                            <div className="side-dropdown-inner-link">
+                                        <a className="maxlg:min-w-0 flex min-w-[300px] py-[10px] px-[20px] items-center rounded max-w-full inline-block bg-transparent text-[00b289] no-underline cursor-pointer">
+                                            <div className="flex items-start">
                                                 <img />
-                                                <div className="side-dropdown-content">
-                                                    <div className="side-dropdown-heading">Task Tracking</div>
-                                                    <div className="side-dropdown-text">Stress-free task management with project templates and integrated timesheets</div>
+                                                <div className="ml-[12px]">
+                                                    <div className="maxlg:font-semibold mb-[10px] text-[#4d4d4d] text-[15px] leading-[18px]">Task Tracking</div>
+                                                    <div className="text-[#6d6d6d] text-[13px] leading-[13px] font-normal">Stress-free task management with project templates and integrated timesheets</div>
                                                 </div>
                                             </div>
                                         </a>
@@ -111,9 +111,9 @@ export default function Navbar() {
                                 </div>
                             </div>
                         </div>
-                        <div className="main-nav-link relative">
-                            <div className="main-nav-dropdown-toggle">Templates</div>
-                            <div className="dropdown-arrow no-margin-right w-icon-dropdown-toggle"></div>
+                        <div className="relative cursor-pointer maxlg:mr-0 maxlg:pt-[16px] maxlg:pb-[16px] maxlg:border maxlg:border-solid maxlg:border-[#c3c3c3] flex justify-between items-center text-[#4c4d5f] text-[17px] leading-[22px]">
+                            <div className="maxlg:py-0 pr-[8px] flex py-[16px] pr-[12px] pl-0 justify-between text-[#4c4d5f] text-[17px] font-normal">Templates</div>
+                            <div className="relative mr-0 mr-[6px] bg-[50%] "></div>
                             <div className="main-nav-dropdown-wrapper-hidden">
                                 <div className="main-nav-left-content-templates">
                                     <a className="main-nav-item---2 w-inline-block">
