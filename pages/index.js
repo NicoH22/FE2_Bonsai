@@ -434,7 +434,34 @@ export default function Home() {
                     </a>
                   </div>
                 </div>
-                <div>margin-top4</div>
+                {/* PLAN DIV 4 */}
+                <div className="!bg-scroll mx-0 mb-0 maxmd:mt-[4.5rem] w-full max-w-none">
+                  <div className="mt-[20px] mb-[40px] !bg-scroll">
+                    <h2
+                      className="font-normal !bg-scroll maxmd:text-[1.5rem] text-center
+                    my-0 leading-[140%] maxmd:text-[24px] maxmd:leading-[36px] mt-[20px]
+                    mb-[10px] text-[#4c525a] text-[32px]"
+                    >
+                      Super charge your work with add-ons
+                    </h2>
+                  </div>
+                  <div
+                    className="maxmd:py-[20px] mb-[10px] pt-[10px] px-[40px] pb-[5px]
+                  !bg-scroll maxxs:px-[25px] maxmd:flex-col-reverse flex-wrap items-start
+                  content-start maxlg:px-[40px] flex justify-between rounded-[8px] bg-[#fff]
+                  shadow-[0_0_60px_0_rgb(2,4,69,5)]"
+                  >
+                    <div></div>
+                    <div></div>
+                  </div>
+                  <div
+                    className="maxmd:py-[20px] mb-[10px] pt-[10px] px-[40px] pb-[5px]
+                  !bg-scroll maxxs:px-[25px] maxmd:flex-col-reverse flex-wrap items-start
+                  content-start maxlg:px-[40px] flex justify-between rounded-[8px] bg-[#fff]
+                  shadow-[0_0_60px_0_rgb(2,4,69,5)]"
+                  ></div>
+                  <div className="addonbox"></div>
+                </div>
               </div>
               {/* PRICING YEARLY */}
               <div className="pricing_yearly">YEARLY</div>
