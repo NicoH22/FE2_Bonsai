@@ -73,34 +73,34 @@ export default function Home() {
               <div className="flex !bg-scroll maxlg:flex-col pt-[40px] justify-between flex-wrap">
                 {/* PLAN DIV 1 */}
                 <div
-                  class="!bg-scroll maxxs:px-[23px] maxxs:pb-[40px] maxlg:w-full maxlg:mb-[30px]
+                  className="!bg-scroll maxxs:px-[23px] maxxs:pb-[40px] maxlg:w-full maxlg:mb-[30px]
                 maxlg:py-[50px] relative flex overflow-hidden w-[32%] py-[6%] px-[4%] flex-col
                 border-[0.3px] border-solid border-[rgba(2,4,69, 0.15)] rounded-[4px]
                 shadow-[0_0_68_px_0_rgba(2,4,69,8%)]"
                 >
                   <div
-                    class="!bg-scroll maxmd:text-[1.5rem] font-[600] my-0 text-[1.625rem]
+                    className="!bg-scroll maxmd:text-[1.5rem] font-[600] my-0 text-[1.625rem]
                   leading-[1.4] font-[700]"
                   >
                     Starter
                   </div>
-                  <div class="!bg-scroll max-w-[90%]">
+                  <div className="!bg-scroll max-w-[90%]">
                     Ideal for freelancers and contractors just starting out.
                   </div>
-                  <div class="!bg-scroll w-full mt-[20px] border-b-[2px] border-b-solid border-b-[#01b289]">
+                  <div className="!bg-scroll w-full mt-[20px] border-b-[2px] border-b-solid border-b-[#01b289]">
                     <div
-                      class="!bg-scroll maxmd:text-[70px] maxmd:leading-[80px] flex items-end text-[62px]
+                      className="!bg-scroll maxmd:text-[70px] maxmd:leading-[80px] flex items-end text-[62px]
                     leading-[72px] font-[600]"
                     >
                       <span
-                        class="!bg-scroll maxxs:text-[28px] leading-[43px] maxmd:leading-[49px]
+                        className="!bg-scroll maxxs:text-[28px] leading-[43px] maxmd:leading-[49px]
                       relative top-[10px] mr-[10px] self-start text-[30px] leading-[28px] font-[400]"
                       >
                         $
                       </span>
                       24
                       <span
-                        class="!bg-scroll my-0 mr-0 maxmd:text-[1.5rem] maxmd:ml-[1.25rem]
+                        className="!bg-scroll my-0 mr-0 maxmd:text-[1.5rem] maxmd:ml-[1.25rem]
                       maxlg:my-0 maxlg:mr-0 maxlg:ml-[1.5rem] uppercase font-[400] text-[1.625rem]
                       leading-[1.4] font-[700] m-[0.9375rem]"
                       >
@@ -108,8 +108,8 @@ export default function Home() {
                       </span>
                     </div>
                   </div>
-                  <div class="!bg-scroll mb-[25px] pt-[40px]">
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                  <div className="!bg-scroll mb-[25px] pt-[40px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -117,7 +117,7 @@ export default function Home() {
                       />
                       <div>All Templates</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -125,7 +125,7 @@ export default function Home() {
                       />
                       <div>Unlimited Clients &amp; Projects</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -133,7 +133,7 @@ export default function Home() {
                       />
                       <div>Invoicing &amp; Payments</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -141,7 +141,7 @@ export default function Home() {
                       />
                       <div>Proposals &amp; Contracts</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -149,7 +149,7 @@ export default function Home() {
                       />
                       <div>Tasks &amp; Time Tracking</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -157,7 +157,7 @@ export default function Home() {
                       />
                       <div>Client CRM</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -165,7 +165,7 @@ export default function Home() {
                       />
                       <div>Expense Tracking</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -174,7 +174,7 @@ export default function Home() {
                       <div>Up to 5 Project Collaborators</div>
                     </div>
                   </div>
-                  <div class="mt-auto !bg-scroll mx-0 ml-0">
+                  <div className="mt-auto !bg-scroll mx-0 ml-0">
                     <a
                       className="!bg-scroll maxmd:text-[15px] w-full py-[22px] px-[25px]
                     rounded-[4px] bg-[#00b289] font-bold text-center tracking-[.7px]
@@ -186,34 +186,34 @@ export default function Home() {
                 </div>
                 {/* PLAN DIV 2 */}
                 <div
-                  class="!bg-scroll maxxs:px-[23px] maxxs:pb-[40px] maxlg:w-full maxlg:mb-[30px]
+                  className="!bg-scroll maxxs:px-[23px] maxxs:pb-[40px] maxlg:w-full maxlg:mb-[30px]
                 maxlg:py-[50px] relative flex overflow-hidden w-[32%] py-[6%] px-[4%] flex-col
                 border-[0.3px] border-solid border-[rgba(2,4,69, 0.15)] rounded-[4px]
                 shadow-[0_0_68_px_0_rgba(2,4,69,8%)]"
                 >
                   <div
-                    class="!bg-scroll maxmd:text-[1.5rem] font-[600] my-0 text-[1.625rem]
+                    className="!bg-scroll maxmd:text-[1.5rem] font-[600] my-0 text-[1.625rem]
                   leading-[1.4] font-[700]"
                   >
                     Professionnal
                   </div>
-                  <div class="!bg-scroll max-w-[90%]">
+                  <div className="!bg-scroll max-w-[90%]">
                     Everything a growing independent business needs to thrive.{" "}
                   </div>
-                  <div class="!bg-scroll w-full mt-[20px] border-b-[2px] border-b-solid border-b-[#01b289]">
+                  <div className="!bg-scroll w-full mt-[20px] border-b-[2px] border-b-solid border-b-[#01b289]">
                     <div
-                      class="!bg-scroll maxmd:text-[70px] maxmd:leading-[80px] flex items-end text-[62px]
+                      className="!bg-scroll maxmd:text-[70px] maxmd:leading-[80px] flex items-end text-[62px]
                     leading-[72px] font-[600]"
                     >
                       <span
-                        class="!bg-scroll maxxs:text-[28px] leading-[43px] maxmd:leading-[49px]
+                        className="!bg-scroll maxxs:text-[28px] leading-[43px] maxmd:leading-[49px]
                       relative top-[10px] mr-[10px] self-start text-[30px] leading-[28px] font-[400]"
                       >
                         $
                       </span>
                       39
                       <span
-                        class="!bg-scroll my-0 mr-0 maxmd:text-[1.5rem] maxmd:ml-[1.25rem]
+                        className="!bg-scroll my-0 mr-0 maxmd:text-[1.5rem] maxmd:ml-[1.25rem]
                       maxlg:my-0 maxlg:mr-0 maxlg:ml-[1.5rem] uppercase font-[400] text-[1.625rem]
                       leading-[1.4] font-[700] m-[0.9375rem]"
                       >
@@ -221,8 +221,8 @@ export default function Home() {
                       </span>
                     </div>
                   </div>
-                  <div class="!bg-scroll mb-[25px] pt-[40px]">
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                  <div className="!bg-scroll mb-[25px] pt-[40px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -230,7 +230,7 @@ export default function Home() {
                       />
                       <div>Everything in Starter plus...</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -238,7 +238,7 @@ export default function Home() {
                       />
                       <div>Custom Branding</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -246,7 +246,7 @@ export default function Home() {
                       />
                       <div>Forms & Questionnaires</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -254,7 +254,7 @@ export default function Home() {
                       />
                       <div>Workflow Automations</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -262,7 +262,7 @@ export default function Home() {
                       />
                       <div>Client Portal</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -270,7 +270,7 @@ export default function Home() {
                       />
                       <div>QuickBooks Integration</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -278,7 +278,7 @@ export default function Home() {
                       />
                       <div>Calendly Integration</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -286,7 +286,7 @@ export default function Home() {
                       />
                       <div>Zapier Integration</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -295,7 +295,7 @@ export default function Home() {
                       <div>Up to 15 Project Collaborators</div>
                     </div>
                   </div>
-                  <div class="mt-auto !bg-scroll mx-0 ml-0">
+                  <div className="mt-auto !bg-scroll mx-0 ml-0">
                     <a
                       className="!bg-scroll maxmd:text-[15px] w-full py-[22px] px-[25px]
                     rounded-[4px] bg-[#00b289] font-bold text-center tracking-[.7px]
@@ -307,34 +307,34 @@ export default function Home() {
                 </div>
                 {/* PLAN DIV 3 */}
                 <div
-                  class="!bg-scroll maxxs:px-[23px] maxxs:pb-[40px] maxlg:w-full maxlg:mb-[30px]
+                  className="!bg-scroll maxxs:px-[23px] maxxs:pb-[40px] maxlg:w-full maxlg:mb-[30px]
                 maxlg:py-[50px] relative flex overflow-hidden w-[32%] py-[6%] px-[4%] flex-col
                 border-[0.3px] border-solid border-[rgba(2,4,69, 0.15)] rounded-[4px]
                 shadow-[0_0_68_px_0_rgba(2,4,69,8%)]"
                 >
                   <div
-                    class="!bg-scroll maxmd:text-[1.5rem] font-[600] my-0 text-[1.625rem]
+                    className="!bg-scroll maxmd:text-[1.5rem] font-[600] my-0 text-[1.625rem]
                   leading-[1.4] font-[700]"
                   >
                     Business
                   </div>
-                  <div class="!bg-scroll max-w-[90%]">
+                  <div className="!bg-scroll max-w-[90%]">
                     The perfect package for small businesses and agencies.{" "}
                   </div>
-                  <div class="!bg-scroll w-full mt-[20px] border-b-[2px] border-b-solid border-b-[#01b289]">
+                  <div className="!bg-scroll w-full mt-[20px] border-b-[2px] border-b-solid border-b-[#01b289]">
                     <div
-                      class="!bg-scroll maxmd:text-[70px] maxmd:leading-[80px] flex items-end text-[62px]
+                      className="!bg-scroll maxmd:text-[70px] maxmd:leading-[80px] flex items-end text-[62px]
                     leading-[72px] font-[600]"
                     >
                       <span
-                        class="!bg-scroll maxxs:text-[28px] leading-[43px] maxmd:leading-[49px]
+                        className="!bg-scroll maxxs:text-[28px] leading-[43px] maxmd:leading-[49px]
                       relative top-[10px] mr-[10px] self-start text-[30px] leading-[28px] font-[400]"
                       >
                         $
                       </span>
                       79
                       <span
-                        class="!bg-scroll my-0 mr-0 maxmd:text-[1.5rem] maxmd:ml-[1.25rem]
+                        className="!bg-scroll my-0 mr-0 maxmd:text-[1.5rem] maxmd:ml-[1.25rem]
                       maxlg:my-0 maxlg:mr-0 maxlg:ml-[1.5rem] uppercase font-[400] text-[1.625rem]
                       leading-[1.4] font-[700] m-[0.9375rem]"
                       >
@@ -342,8 +342,8 @@ export default function Home() {
                       </span>
                     </div>
                   </div>
-                  <div class="!bg-scroll mb-[25px] pt-[40px]">
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                  <div className="!bg-scroll mb-[25px] pt-[40px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -351,7 +351,7 @@ export default function Home() {
                       />
                       <div>Everything in Starter and Professional plus...</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -359,7 +359,7 @@ export default function Home() {
                       />
                       <div>Subcontractor Management</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -367,7 +367,7 @@ export default function Home() {
                       />
                       <div>Hiring Agreement Templates (1099 contracts)</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -375,7 +375,7 @@ export default function Home() {
                       />
                       <div>Subcontractor Onboarding</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -383,7 +383,7 @@ export default function Home() {
                       />
                       <div>Talent Pool</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -391,7 +391,7 @@ export default function Home() {
                       />
                       <div>3 Team Seats (additional seats $9/month)</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -399,7 +399,7 @@ export default function Home() {
                       />
                       <div>Accountant Access</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -407,7 +407,7 @@ export default function Home() {
                       />
                       <div>Connect Multiple Bank Accounts</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -415,7 +415,7 @@ export default function Home() {
                       />
                       <div>Unlimited Subcontractors</div>
                     </div>
-                    <div class="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
+                    <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
                       <FaCheck
                         className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
                       my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
@@ -424,7 +424,7 @@ export default function Home() {
                       <div>Unlimited Project Collaborators</div>
                     </div>
                   </div>
-                  <div class="mt-auto !bg-scroll mx-0 ml-0">
+                  <div className="mt-auto !bg-scroll mx-0 ml-0">
                     <a
                       className="!bg-scroll maxmd:text-[15px] w-full py-[22px] px-[25px]
                     rounded-[4px] bg-[#00b289] font-bold text-center tracking-[.7px]
