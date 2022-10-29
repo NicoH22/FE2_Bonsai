@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { FaCheck } from "react-icons/fa";
+import Navbar from '../components/layouts/navbar/Navbar.js'
 
 export default function Home() {
   return (
@@ -16,9 +17,9 @@ export default function Home() {
           type="text/css"
         />
       </Head>
-
+      
       {/* NAVBAR */}
-      <div>NAVBAR</div>
+      <div><Navbar /></div>
 
       <main className="!bg-scroll block overflow-hidden w-full">
         <div className="pt-[110px] pb-[40px] !bg-scroll relative">
