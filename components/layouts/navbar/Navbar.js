@@ -113,7 +113,7 @@ export default function Navbar() {
                         </div>
                         <div className="relative cursor-pointer maxlg:mr-0 maxlg:pt-[16px] maxlg:pb-[16px] maxlg:border maxlg:border-solid maxlg:border-[#c3c3c3] flex justify-between items-center text-[#4c4d5f] text-[17px] leading-[22px]">
                             <div className="maxlg:py-0 pr-[8px] flex py-[16px] pr-[12px] pl-0 justify-between text-[#4c4d5f] text-[17px] font-normal">Templates</div>
-                            <div className="relative mr-0 mr-[6px] bg-[50%] "></div>
+                            <div className="relative mr-0 mr-[6px] bg-[50%] bg-auto bg-no-repeat text-transparent absolute top-0 right-0 bottom-0 my-auto mr-[20px] ml-auto w-[1em] h-[1em]"></div>
                             <div className="main-nav-dropdown-wrapper-hidden">
                                 <div className="main-nav-left-content-templates">
                                     <a className="main-nav-item---2 w-inline-block">

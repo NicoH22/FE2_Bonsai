@@ -21,10 +21,10 @@ export default function Home() {
       {/* NAVBAR */}
       <div><Navbar /></div>
 
-      <main className="!bg-scroll block overflow-hidden w-full">
+      {/* <main className="!bg-scroll block overflow-hidden w-full">
         <div className="pt-[110px] pb-[40px] !bg-scroll relative">
           <div className="relative z-2 !bg-scroll maxmd:px-[1.25rem] px-10">
-            {/* LEFT CONTENT */}
+            {// LEFT CONTENT
             <div className="!bg-scroll w-full max-w-[70rem] mx-auto">
               <div
                 className="pr-0 maxmd:flex-wrap maxlg:mt-0 flex mx-auto w-full mt-[4%]
@@ -70,9 +70,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              {/* PRICING MONTHLY */}
+              {// PRICING MONTHLY
               <div className="flex !bg-scroll maxlg:flex-col pt-[40px] justify-between flex-wrap">
-                {/* PLAN DIV 1 */}
+                {// PLAN DIV 1 
                 <div
                   className="!bg-scroll maxxs:px-[23px] maxxs:pb-[40px] maxlg:w-full maxlg:mb-[30px]
                 maxlg:py-[50px] relative flex overflow-hidden w-[32%] py-[6%] px-[4%] flex-col
@@ -185,7 +185,7 @@ export default function Home() {
                     </a>
                   </div>
                 </div>
-                {/* PLAN DIV 2 */}
+                {// PLAN DIV 2
                 <div
                   className="!bg-scroll maxxs:px-[23px] maxxs:pb-[40px] maxlg:w-full maxlg:mb-[30px]
                 maxlg:py-[50px] relative flex overflow-hidden w-[32%] py-[6%] px-[4%] flex-col
@@ -306,7 +306,7 @@ export default function Home() {
                     </a>
                   </div>
                 </div>
-                {/* PLAN DIV 3 */}
+                {// PLAN DIV 3
                 <div
                   className="!bg-scroll maxxs:px-[23px] maxxs:pb-[40px] maxlg:w-full maxlg:mb-[30px]
                 maxlg:py-[50px] relative flex overflow-hidden w-[32%] py-[6%] px-[4%] flex-col
@@ -435,7 +435,7 @@ export default function Home() {
                     </a>
                   </div>
                 </div>
-                {/* PLAN DIV 4 */}
+                {// PLAN DIV 4
                 <div className="!bg-scroll mx-0 mb-0 maxmd:mt-[4.5rem] w-full max-w-none">
                   <div className="mt-[20px] mb-[40px] !bg-scroll">
                     <h2
@@ -464,12 +464,12 @@ export default function Home() {
                   <div className="addonbox"></div>
                 </div>
               </div>
-              {/* PRICING YEARLY */}
+              {// PRICING YEARLY
               <div className="pricing_yearly">YEARLY</div>
             </div>
           </div>
         </div>
-      </main>
+      </main>*/}
 
       <footer>FOOTER</footer>
     </div>
