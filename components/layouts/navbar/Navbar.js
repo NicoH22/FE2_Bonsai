@@ -113,177 +113,177 @@ export default function Navbar() {
                         </div>
                         <div className="relative cursor-pointer maxlg:mr-0 maxlg:pt-[16px] maxlg:pb-[16px] maxlg:border maxlg:border-solid maxlg:border-[#c3c3c3] flex justify-between items-center text-[#4c4d5f] text-[17px] leading-[22px]">
                             <div className="maxlg:py-0 pr-[8px] flex py-[16px] pr-[12px] pl-0 justify-between text-[#4c4d5f] text-[17px] font-normal">Templates</div>
-                            <div className="relative mr-0 mr-[6px] bg-[50%] bg-auto bg-no-repeat text-transparent absolute top-0 right-0 bottom-0 my-auto mr-[20px] ml-auto w-[1em] h-[1em]"></div>
-                            <div className="main-nav-dropdown-wrapper-hidden">
-                                <div className="main-nav-left-content-templates">
-                                    <a className="main-nav-item---2 w-inline-block">
-                                        <div className="main-nav-item-wrapper">
+                            <div className="relative mr-0 mr-[6px] bg-[50%] bg-auto bg-no-repeat text-transparent absolute top-0 right-0 bottom-0 my-auto mr-[20px] ml-auto w-[1em] h-[1em] not-italic font-normal normal-nums normal-case leading-none"></div>
+                            <div className="hidden !bg-scroll hidden absolute left-[-150%] top-[100%] flex justify-between">
+                                <div className="!bg-scroll maxlg:pt-[47px] flex pt-[10px] pb-[10px] flex-col justify-start items-start flex-[0_0_auto] bg-[#fff] shadow-[0_1px_60px_0_rgba(2,4,69,10)]">
+                                    <a className="!bg-scroll flex w-full min-w-[202px] items-center whitespace-nowrap cursor-pointer max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                        <div className="!bg-scroll flex w-full my-[10px] py-[10px] pr-[55px] pl-[45px]">
                                             <img />
-                                            <div className="template-main-nav-inside-dropdown-heading">Contract Templates</div>
+                                            <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Contract Templates</div>
                                         </div>
                                     </a>
-                                    <a className="main-nav-item---7 w-inline-block">
-                                        <div className="main-nav-item-wrapper">
+                                    <a className="!bg-scroll flex w-full min-w-[202px] items-center whitespace-nowrap cursor-pointer max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                        <div className="!bg-scroll flex w-full my-[10px] py-[10px] pr-[55px] pl-[45px]">
                                             <img />
-                                            <div className="template-main-nav-inside-dropdown-heading">Proposal Templates</div>
+                                            <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Proposal Templates</div>
                                         </div>
                                     </a>
-                                    <a className="main-nav-item---1 w-inline-block">
-                                        <div className="main-nav-item-wrapper">
+                                    <a className="!bg-scroll flex w-full min-w-[202px] items-center whitespace-nowrap cursor-pointer max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                        <div className="!bg-scroll flex w-full my-[10px] py-[10px] pr-[55px] pl-[45px]">
                                             <img />
-                                            <div className="template-main-nav-inside-dropdown-heading">Invoice Templates</div>
+                                            <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Invoice Templates</div>
                                         </div>
                                     </a>
-                                    <a className="main-nav-item---3 w-inline-block">
-                                        <div className="main-nav-item-wrapper">
+                                    <a className="!bg-scroll flex w-full min-w-[202px] items-center whitespace-nowrap cursor-pointer max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                        <div className="!bg-scroll flex w-full my-[10px] py-[10px] pr-[55px] pl-[45px]">
                                             <img />
-                                            <div className="template-main-nav-inside-dropdown-heading">Agreement Templates</div>
+                                            <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Agreement Templates</div>
                                         </div>
                                     </a>
-                                    <a className="main-nav-item---4 w-inline-block">
-                                        <div className="main-nav-item-wrapper">
+                                    <a className="!bg-scroll flex w-full min-w-[202px] items-center whitespace-nowrap cursor-pointer max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                        <div className="!bg-scroll flex w-full my-[10px] py-[10px] pr-[55px] pl-[45px]">
                                             <img />
-                                            <div className="template-main-nav-inside-dropdown-heading">Quote Templates</div>
+                                            <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Quote Templates</div>
                                         </div>
                                     </a>
-                                    <a className="main-nav-item---8 w-inline-block">
-                                        <div className="main-nav-item-wrapper">
+                                    <a className="!bg-scroll flex w-full min-w-[202px] items-center whitespace-nowrap cursor-pointer max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                        <div className="!bg-scroll flex w-full my-[10px] py-[10px] pr-[55px] pl-[45px]">
                                             <img />
-                                            <div className="template-main-nav-inside-dropdown-heading">Scope of Work Templates</div>
+                                            <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Scope of Work Templates</div>
                                         </div>
                                     </a>
-                                    <div className="main-nav-item---5">
-                                        <div className="main-nav-item-wrapper">
+                                    <div className="!bg-scroll flex w-full min-w-[202px] items-center whitespace-nowrap cursor-pointer">
+                                        <div className="!bg-scroll flex w-full my-[10px] py-[10px] pr-[55px] pl-[45px]">
                                             <img />
-                                            <div className="template-main-nav-inside-dropdown-heading">Brief Templates</div>
+                                            <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Brief Templates</div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="main-nav-right-content-templates">
-                                    <div className="templates-right-content-item---1">
-                                        <div className="templates-right-wrapper">
-                                            <div className="main-nav-inside-dropdown-heading templates">Featured Invoice Templates</div>
-                                            <a className="templates-right-item bg1 w-inline-block">
-                                                <div className="template-main-nav-inside-dropdown-heading">Social Media Invoice Templates</div>
+                                <div className="!bg-scroll bg-[#fff]">
+                                    <div className="!bg-scroll hidden pt-[10px] pb-[44px] px-[44px] flex-col">
+                                        <div className="!bg-scroll mb-[24px]">
+                                            <div className="mb-[24px] whitespace-nowrap !bg-scroll mb-[10px] text-[#292a2d] text-[22px] leading-[26px]">Featured Invoice Templates</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Social Media Invoice Templates</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Contractor Invoice Template</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Contractor Invoice Template</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Web Design Invoice Template</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Web Design Invoice Template</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Influencer Invoice Template</div>
+                                            <a className="mb-0 bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Influencer Invoice Template</div>
                                             </a>
                                         </div>
-                                        <a className="nav-green-text is-centered">See All Templates</a>
+                                        <a className="flex mx-auto justify-center text-center">See All Templates</a>
                                     </div>
-                                    <div className="templates-right-content-item---2">
-                                        <div className="templates-right-wrapper">
-                                            <div className="main-nav-inside-dropdown-heading templates">Featured Contract Templates</div>
-                                            <a className="templates-right-item bg1 w-inline-block">
-                                                <div className="template-main-nav-inside-dropdown-heading">Free Contract Maker</div>
+                                    <div className="!bg-scroll hidden pt-[10px] pb-[44px] px-[44px] flex-col">
+                                        <div className="!bg-scroll mb-[24px]">
+                                            <div className="mb-[24px] whitespace-nowrap !bg-scroll mb-[10px] text-[#292a2d] text-[22px] leading-[26px]">Featured Contract Templates</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Free Contract Maker</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Social Media Management Contract Template</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Social Media Management Contract Template</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Graphic Design Contract Template</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Graphic Design Contract Template</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Digital Marketing Contract Template</div>
+                                            <a className="mb-0 bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Digital Marketing Contract Template</div>
                                             </a>
                                         </div>
-                                        <a className="nav-green-text is-centered">See All Templates</a>
+                                        <a className="flex mx-auto justify-center text-center">See All Templates</a>
                                     </div>
-                                    <div className="templates-right-content-item---3">
-                                        <div className="templates-right-wrapper">
-                                            <div className="main-nav-inside-dropdown-heading templates">Featured Agreement Templates</div>
-                                            <a className="templates-right-item bg1 w-inline-block">
-                                                <div className="template-main-nav-inside-dropdown-heading">Influencer Agreement Templates</div>
+                                    <div className="!bg-scroll hidden pt-[10px] pb-[44px] px-[44px] flex-col">
+                                        <div className="!bg-scroll mb-[24px]">
+                                            <div className="mb-[24px] whitespace-nowrap !bg-scroll mb-[10px] text-[#292a2d] text-[22px] leading-[26px]">Featured Agreement Templates</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Influencer Agreement Templates</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Influencer Collaboration Agreement Template</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Influencer Collaboration Agreement Template</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Monthly Retainer Agreement Template</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Monthly Retainer Agreement Template</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Writer Agreement Template</div>
+                                            <a className="mb-0 bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Writer Agreement Template</div>
                                             </a>
                                         </div>
-                                        <a className="nav-green-text is-centered">See All Templates</a>
+                                        <a className="flex mx-auto justify-center text-center">See All Templates</a>
                                     </div>
-                                    <div className="templates-right-content-item---4">
-                                        <div className="templates-right-wrapper">
-                                            <div className="main-nav-inside-dropdown-heading templates">Featured Quote Templates</div>
-                                            <a className="templates-right-item bg1 w-inline-block">
-                                                <div className="template-main-nav-inside-dropdown-heading">Web Design Quotation Template</div>
+                                    <div className="!bg-scroll hidden pt-[10px] pb-[44px] px-[44px] flex-col">
+                                        <div className="!bg-scroll mb-[24px]">
+                                            <div className="mb-[24px] whitespace-nowrap !bg-scroll mb-[10px] text-[#292a2d] text-[22px] leading-[26px]">Featured Quote Templates</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Web Design Quotation Template</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Interior Design Quotation Template</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Interior Design Quotation Template</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Digital Marketing Quotation Template</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Digital Marketing Quotation Template</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Video Production Template</div>
+                                            <a className="mb-0 bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Video Production Template</div>
                                             </a>
                                         </div>
-                                        <a className="nav-green-text is-centered">See All Templates</a>
+                                        <a className="flex mx-auto justify-center text-center">See All Templates</a>
                                     </div>
-                                    <div className="templates-right-content-item---5">
-                                        <div className="templates-right-wrapper">
-                                            <div className="main-nav-inside-dropdown-heading templates">Featured Brief Templates</div>
-                                            <a className="templates-right-item bg1 w-inline-block">
-                                                <div className="template-main-nav-inside-dropdown-heading">Design Brief Template</div>
+                                    <div className="!bg-scroll hidden pt-[10px] pb-[44px] px-[44px] flex-col">
+                                        <div className="!bg-scroll mb-[24px]">
+                                            <div className="mb-[24px] whitespace-nowrap !bg-scroll mb-[10px] text-[#292a2d] text-[22px] leading-[26px]">Featured Brief Templates</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Design Brief Template</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Architecture Design Brief</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Architecture Design Brief</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Fashion Design Brief</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Fashion Design Brief</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Creative Brief Template</div>
+                                            <a className="mb-0 bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Creative Brief Template</div>
                                             </a>
                                         </div>
                                     </div>
-                                    <div className="templates-right-content-item---6">
-                                        <div className="templates-right-wrapper">
-                                            <div className="main-nav-inside-dropdown-heading templates">Featured Proposal Templates</div>
-                                            <a className="templates-right-item bg1 w-inline-block">
-                                                <div className="template-main-nav-inside-dropdown-heading">Graphic Design Proposal Template</div>
+                                    <div className="!bg-scroll hidden pt-[10px] pb-[44px] px-[44px] flex-col">
+                                        <div className="!bg-scroll mb-[24px]">
+                                            <div className="mb-[24px] whitespace-nowrap !bg-scroll mb-[10px] text-[#292a2d] text-[22px] leading-[26px]">Featured Proposal Templates</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Graphic Design Proposal Template</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Business Proposal Template</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Business Proposal Template</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Brand Ambassador Proposal Template</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Brand Ambassador Proposal Template</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Data Entry Proposal Letter Template</div>
+                                            <a className="mb-0 bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Data Entry Proposal Letter Template</div>
                                             </a>
                                         </div>
-                                        <a className="nav-green-text is-centered">See All Templates</a>
+                                        <a className="flex mx-auto justify-center text-center">See All Templates</a>
                                     </div>
-                                    <div className="templates-right-content-item---7">
-                                        <div className="templates-right-wrapper">
-                                            <div className="main-nav-inside-dropdown-heading templates">Featured Scope of Work Templates</div>
-                                            <a className="templates-right-item bg1 w-inline-block">
-                                                <div className="template-main-nav-inside-dropdown-heading">Website Development Scope of Work Template</div>
+                                    <div className="!bg-scroll hidden pt-[10px] pb-[44px] px-[44px] flex-col">
+                                        <div className="!bg-scroll mb-[24px]">
+                                            <div className="mb-[24px] whitespace-nowrap !bg-scroll mb-[10px] text-[#292a2d] text-[22px] leading-[26px]">Featured Scope of Work Templates</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Website Development Scope of Work Template</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Digital Marketing Scope of Work Template</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Digital Marketing Scope of Work Template</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Consultant Scope of Work Template</div>
+                                            <a className="bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Consultant Scope of Work Template</div>
                                             </a>
-                                            <a>
-                                                <div className="template-main-nav-inside-dropdown-heading">Interior Design Scope of Work Template</div>
+                                            <a className="mb-0 bg-[50%] bg-cover bg-no-repeat !bg-scroll w-full min-w-[387px] mb-[10px] py-[28px] px-[32px] border border-transparent border-solid rounded text-center whitespace-nowrap max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
+                                                <div className="!bg-scroll ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">Interior Design Scope of Work Template</div>
                                             </a>
                                         </div>
-                                        <a className="nav-green-text is-centered">See All Templates</a>
+                                        <a className="flex mx-auto justify-center text-center">See All Templates</a>
                                     </div>
                                 </div>
                             </div>
