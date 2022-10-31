@@ -436,7 +436,7 @@ export default function Home() {
                   </div>
                 </div>
                 {/* PLAN DIV 4 */}
-                <div className="!bg-scroll mx-0 mb-0 maxmd:mt-[4.5rem] w-full max-w-none">
+                <div className="!bg-scroll mx-0 mb-0 maxmd:mt-[4.5rem] w-full max-w-none text-[#4c525a]">
                   <div className="mt-[20px] mb-[40px] !bg-scroll">
                     <h2
                       className="font-normal !bg-scroll maxmd:text-[1.5rem] text-center
@@ -452,16 +452,109 @@ export default function Home() {
                   content-start maxlg:px-[40px] flex justify-between rounded-[8px] bg-[#fff]
                   shadow-[0_0_60px_0_rgb(2,4,69,5)]"
                   >
-                    <div></div>
-                    <div></div>
+                    <div className="!bg-scroll maxmd:w-full w-[80%] max-w-[600px]">
+                      <div
+                        className="font-[600] !bg-scroll maxmd:text-[1rem] my-0 text-[1.375rem]
+                      leading-[1.4] font-[700]"
+                      >
+                        Collaborators
+                      </div>
+                      <div className="!bg-scroll text-[1rem] font-[300]">
+                        Invite other users to specific projects for limited
+                        access and functionality.
+                      </div>
+                    </div>
+                    <div
+                      className="maxxs:pt-0 !bg-scroll maxmd:py-[15px] maxmd:justify-start w-[20%]
+                    py-[36px]"
+                    >
+                      <div
+                        className="!bg-scroll maxmd:text-[1.5rem] align-center my-0 text-[2rem]
+                      leading-[140%] font-bold"
+                      >
+                        Free
+                        <br />
+                      </div>
+                    </div>
                   </div>
                   <div
                     className="maxmd:py-[20px] mb-[10px] pt-[10px] px-[40px] pb-[5px]
                   !bg-scroll maxxs:px-[25px] maxmd:flex-col-reverse flex-wrap items-start
                   content-start maxlg:px-[40px] flex justify-between rounded-[8px] bg-[#fff]
                   shadow-[0_0_60px_0_rgb(2,4,69,5)]"
-                  ></div>
-                  <div className="addonbox"></div>
+                  >
+                    <div className="!bg-scroll maxmd:w-full w-[80%] max-w-[600px]">
+                      <div
+                        className="font-[600] !bg-scroll maxmd:text-[1rem] my-0 text-[1.375rem]
+                      leading-[1.4]"
+                      >
+                        Partners
+                      </div>
+                      <div className="!bg-scroll text-[1rem] font-[300]">
+                        Invite other users for full account access and company
+                        management.
+                      </div>
+                    </div>
+                    <div
+                      className="!bg-scroll maxmd:py-[15px] maxmd:justify-start w-[20%]
+                    py-[36px]"
+                    >
+                      <div
+                        className="!bg-scroll maxmd:text-[2.5rem] align-center my-0 text-[2.75rem]
+                      leading-[140%] font-semibold leading-[130%]"
+                      >
+                        $9
+                        <br />
+                      </div>
+                      <div
+                        className="!bg-scroll uppercase text-center text-[.875rem] leading-[133%]
+                      font-[400]"
+                      >
+                        /month
+                      </div>
+                    </div>
+                  </div>
+                  {/* ADDONBOX */}
+                  <div
+                    className="!bg-scroll maxms:px-[25px] maxmd:px-[20px] flex-col-reverse
+                  flex-wrap items-start content-start maxlg:px-[40px] flex mb-[20px]
+                  px-[40px] pt-[30px] pb-[25px] content-between items-center rounded-[8px]
+                  bg-[#fff] shadow-[0_0_60px_rgb(2,4,69,5)]"
+                  >
+                    <div className="!bg-scroll maxmd:w-full w-[80%] max-w-[600px]">
+                      <div
+                        className="font-[600] !bg-scroll maxmd:text-[1rem] my-0 text-[1.375rem]
+                      leading-[1.4]"
+                      >
+                        Bonsai Tax
+                      </div>
+                      <div className="!bg-scroll text-[1rem] font-[300] mx-0 ml-0 mr-[.625rem]">
+                        Track expenses, identify write-offs, and estimate
+                        quarterly taxes easily.
+                      </div>
+                      <a>
+                        <div>Learn More</div>
+                      </a>
+                    </div>
+                    <div
+                      className="!bg-scroll maxmd:py-[15px] maxmd:justify-start w-[20%]
+                    py-[36px]"
+                    >
+                      <div
+                        className="!bg-scroll maxmd:text-[2.5rem] align-center my-0 text-[2.75rem]
+                      leading-[140%] font-semibold leading-[130%]"
+                      >
+                        $10
+                        <br />
+                      </div>
+                      <div
+                        className="!bg-scroll uppercase text-center text-[.875rem] leading-[133%]
+                      font-[400]"
+                      >
+                        /month
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               {/* PRICING YEARLY */}
