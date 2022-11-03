@@ -571,7 +571,34 @@ export default function Home() {
           </div>
         </div>
         {/* SECTION MAIN 2 */}
-        <div></div>
+        <div className="py-[40px] !bg-scroll relative">
+          <div className="!bg-scroll maxmd:px-[1.25rem] px-[2.5rem]">
+            <div className="!bg-scroll w-full max-w-[58rem] mx-auto">
+              <div
+                className="maxxs:pt-[40px] maxxs:px-[15px] maxxs:pb-[50px] justify-center
+              maxlg:relative maxlg:z-1 maxlg:py-[3rem] maxlg:py-[2rem] flex flex-wrap text-center
+              py-[4rem] px-[3rem] rounded-[8px] bg-[#f2faff]"
+              >
+                <div className="w-[70%] !bg-scroll text-[#4C525A]">
+                  <div className="!bg-scroll maxmd:text-[2.5rem] my-0 text-[2.75rem] leading-[130%]">
+                    It&apos;s <span className="text-[#00b289]">your</span>{" "}
+                    business.
+                    <br />
+                    We&apos;re here to help it grow.
+                  </div>
+                </div>
+                <a
+                  className="!bg-scroll maxxs:text-center inline-block w-auto pt-[15px] px-[25px]
+                pb-[13px] rounded-[4px] bg-gradient-to-r from-[#00b289] to-cyan-500 transition-colors
+                duration-[400ms] ease-in delay-[0ms] text-center tracking-[.07em] uppercase inline-block
+                py-[9px] px-[15px] border-none no-underline cursor-pointer"
+                >
+                  start free
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* SECTION MAIN 3 */}
         <div></div>
       </main>
