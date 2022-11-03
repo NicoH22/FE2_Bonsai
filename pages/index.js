@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { FaCheck } from "react-icons/fa";
 import Navbar from "../components/layouts/navbar/Navbar.js";
+import { AiOutlineRight } from "react-icons/ai";
 
 export default function Home() {
   return (
@@ -450,7 +451,7 @@ export default function Home() {
                     className="maxmd:py-[20px] mb-[10px] pt-[10px] px-[40px] pb-[5px]
                   !bg-scroll maxxs:px-[25px] maxmd:flex-col-reverse flex-wrap items-start
                   content-start maxlg:px-[40px] flex justify-between rounded-[8px] bg-[#fff]
-                  shadow-[0_0_60px_0_rgb(2,4,69,5)]"
+                  shadow-[0_0_60px_0_rgb(2,4,69,0.05)]"
                   >
                     <div className="!bg-scroll maxmd:w-full w-[80%] max-w-[600px]">
                       <div
@@ -481,7 +482,7 @@ export default function Home() {
                     className="maxmd:py-[20px] mb-[10px] pt-[10px] px-[40px] pb-[5px]
                   !bg-scroll maxxs:px-[25px] maxmd:flex-col-reverse flex-wrap items-start
                   content-start maxlg:px-[40px] flex justify-between rounded-[8px] bg-[#fff]
-                  shadow-[0_0_60px_0_rgb(2,4,69,5)]"
+                  shadow-[0_0_60px_0_rgb(2,4,69,0.05)]"
                   >
                     <div className="!bg-scroll maxmd:w-full w-[80%] max-w-[600px]">
                       <div
@@ -518,8 +519,8 @@ export default function Home() {
                   <div
                     className="!bg-scroll maxms:px-[25px] maxmd:px-[20px] flex-col-reverse
                   flex-wrap items-start content-start maxlg:px-[40px] flex mb-[20px]
-                  px-[40px] pt-[30px] pb-[25px] content-between items-center rounded-[8px]
-                  bg-[#fff] shadow-[0_0_60px_rgb(2,4,69,5)]"
+                  px-[40px] pt-[30px] pb-[25px] content-between rounded-[8px]
+                  bg-[#fff] shadow-[0_0_60px_rgb(2,4,69,0.05)]"
                   >
                     <div className="!bg-scroll maxmd:w-full w-[80%] max-w-[600px]">
                       <div
@@ -532,8 +533,15 @@ export default function Home() {
                         Track expenses, identify write-offs, and estimate
                         quarterly taxes easily.
                       </div>
-                      <a>
+                      <a
+                        className="!bg-scroll uppercase flex font-[600] max-w-full inline-block
+                      text-[#00b289] no-underline cursor-pointer"
+                      >
                         <div>Learn More</div>
+                        <AiOutlineRight
+                          className="text-[#00b289] relative top-[-1] ml-[6px]
+                        border-none align-middle inline-block max-w-full self-center"
+                        />
                       </a>
                     </div>
                     <div
@@ -562,6 +570,10 @@ export default function Home() {
             </div>
           </div>
         </div>
+        {/* SECTION MAIN 2 */}
+        <div></div>
+        {/* SECTION MAIN 3 */}
+        <div></div>
       </main>
 
       <footer>FOOTER</footer>
