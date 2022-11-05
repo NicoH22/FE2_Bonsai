@@ -4,8 +4,19 @@ import styles from "../styles/Home.module.css";
 import { FaCheck } from "react-icons/fa";
 import Navbar from "../components/layouts/navbar/Navbar.js";
 import { AiOutlineRight } from "react-icons/ai";
+import { Fragment, useState } from "react";
+import {
+  Accordion,
+  AccordionHeader,
+  AccordionBody,
+} from "@material-tailwind/react";
 
 export default function Home() {
+  const [open, setOpen] = useState(1);
+
+  const handleOpen = (value) => {
+    setOpen(open === value ? 0 : value);
+  };
   return (
     <div>
       <Head>
@@ -600,7 +611,80 @@ export default function Home() {
           </div>
         </div>
         {/* SECTION MAIN 3 */}
-        <div></div>
+        <div className="px-[40px] !bg-scroll relative">
+          <div className="!bg-scroll maxmd:px-[1.25rem] px-[2.5rem]">
+            <div className="!bg-scroll w-full max-w-[58rem] mx-auto">
+              <div className="mx-0 my-[2.5rem]">
+                <h2
+                  className="!bg-scroll text-[#00b289] text-center maxmd:text-[24px] leading-[36px]
+                mt-[20px] mb-[10px] font-bold"
+                >
+                  Frenquently Asked Questions
+                </h2>
+              </div>
+              <Fragment>
+                <Accordion open={open === 1}>
+                  <AccordionHeader onClick={() => handleOpen(1)}>
+                    How does the free trial work?
+                  </AccordionHeader>
+                  <AccordionBody
+                  //   className="mx-[9%] !bg-scroll text-left maxmd:text-[14px] maxmd:leading-[24px]
+                  // text-[#4c4d5f] mt-0 mb-[10px] text-[28px] leading-[28px] no-underline"
+                  >
+                    When you start your trial with Bonsai you&apos;ll receive
+                    full, unlimited access to all of Bonsai&apos;s Workflow or
+                    Workflow Plus Features! You will need to enter your credit
+                    card information to begin your trial, but don&apos;t worry -
+                    we won&apos;t charge you anything until the subscription
+                    ends! If you wish to cancel at any time during the trial
+                    period, you can do so through your Subscriptions Settings
+                    Page.
+                  </AccordionBody>
+                </Accordion>
+                <Accordion open={open === 2}>
+                  <AccordionHeader onClick={() => handleOpen(2)}>
+                    Can I change plans anytime?
+                  </AccordionHeader>
+                  <AccordionBody>
+                    Yes, you can from within your account. If you have already
+                    subscribed to a plan, or want to downgrade or upgrade your
+                    current one, you can do this by going to your
+                    &quot;Settings&quot; and &quot;Subscription&quot;.
+                  </AccordionBody>
+                </Accordion>
+                <Accordion open={open === 3}>
+                  <AccordionHeader onClick={() => handleOpen(3)}>
+                    How do I pause my Bonsai subscription?
+                  </AccordionHeader>
+                  <AccordionBody>
+                    We totally understand that with the nature of freelancing,
+                    work ebbs and flows so you might not always need your Bonsai
+                    subscription to remain active! The good news is that you can
+                    cancel or pause your monthly subscription at any time
+                    without penalty. Once cancelled, you&apos;ll be able to
+                    continue logging in to access all your documents and even
+                    continue to use our free features, like Time Tracking! In
+                    order to cancel your subscription, login to your Bonsai
+                    account.
+                  </AccordionBody>
+                </Accordion>
+                <Accordion open={open === 4}>
+                  <AccordionHeader onClick={() => handleOpen(4)}>
+                    What is your refund policy?
+                  </AccordionHeader>
+                  <AccordionBody>
+                    If you contact us within 2 weeks of being charged for your
+                    subscription, we will be happy to issue a refund for
+                    you!Beyond those 2 weeks, you will need to cancel or modify
+                    the subscription from the Subscriptions Tab in Settings to
+                    avoid future charges, but refunds will not be issued. This
+                    applies to both monthly and annual plans.
+                  </AccordionBody>
+                </Accordion>
+              </Fragment>
+            </div>
+          </div>
+        </div>
       </main>
 
       <footer>FOOTER</footer>
