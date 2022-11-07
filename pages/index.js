@@ -528,10 +528,10 @@ export default function Home() {
                   </div>
                   {/* ADDONBOX */}
                   <div
-                    className="!bg-scroll maxms:px-[25px] maxmd:px-[20px] flex-col-reverse
-                  flex-wrap items-start content-start maxlg:px-[40px] flex mb-[20px]
-                  px-[40px] pt-[30px] pb-[25px] content-between rounded-[8px]
-                  bg-[#fff] shadow-[0_0_60px_rgb(2,4,69,0.05)]"
+                    className="maxmd:py-[20px] mb-[10px] pt-[10px] px-[40px] pb-[5px]
+                    !bg-scroll maxxs:px-[25px] maxmd:flex-col-reverse flex-wrap items-start
+                    content-start maxlg:px-[40px] flex justify-between rounded-[8px] bg-[#fff]
+                    shadow-[0_0_60px_0_rgb(2,4,69,0.05)]"
                   >
                     <div className="!bg-scroll maxmd:w-full w-[80%] max-w-[600px]">
                       <div
@@ -616,15 +616,20 @@ export default function Home() {
             <div className="!bg-scroll w-full max-w-[58rem] mx-auto">
               <div className="mx-0 my-[2.5rem]">
                 <h2
-                  className="!bg-scroll text-[#00b289] text-center maxmd:text-[24px] leading-[36px]
-                mt-[20px] mb-[10px] font-bold"
+                  className="!bg-scroll text-[#00b289] text-center maxmd:text-[24px] maxmd:leading-[36px]
+                mt-[36px] mt-[20px] mb-[10px] text-[32px] leading-[38px] font-bold"
                 >
                   Frenquently Asked Questions
                 </h2>
               </div>
               <Fragment>
                 <Accordion open={open === 1}>
-                  <AccordionHeader onClick={() => handleOpen(1)}>
+                  <AccordionHeader
+                    onClick={() => handleOpen(1)}
+                    className="maxxs:mr-[20px] maxxs:pr-[20px] maxms:mx-[9%]
+                  mx-[9%] maxmd:text-left maxmd:text-[24px] maxmd:leading-[36px] mt-[20px] font-bold
+                  mb-[10px] text-[24px] leading-[38px]"
+                  >
                     How does the free trial work?
                   </AccordionHeader>
                   <AccordionBody
@@ -642,7 +647,12 @@ export default function Home() {
                   </AccordionBody>
                 </Accordion>
                 <Accordion open={open === 2}>
-                  <AccordionHeader onClick={() => handleOpen(2)}>
+                  <AccordionHeader
+                    onClick={() => handleOpen(2)}
+                    className="maxxs:mr-[20px] maxxs:pr-[20px] maxms:mx-[9%]
+                  mx-[9%] maxmd:text-left maxmd:text-[24px] maxmd:leading-[36px] mt-[20px] font-bold
+                  mb-[10px] text-[24px] leading-[38px]"
+                  >
                     Can I change plans anytime?
                   </AccordionHeader>
                   <AccordionBody>
@@ -653,7 +663,12 @@ export default function Home() {
                   </AccordionBody>
                 </Accordion>
                 <Accordion open={open === 3}>
-                  <AccordionHeader onClick={() => handleOpen(3)}>
+                  <AccordionHeader
+                    onClick={() => handleOpen(3)}
+                    className="maxxs:mr-[20px] maxxs:pr-[20px] maxms:mx-[9%]
+                  mx-[9%] maxmd:text-left maxmd:text-[24px] maxmd:leading-[36px] mt-[20px] font-bold
+                  mb-[10px] text-[24px] leading-[38px]"
+                  >
                     How do I pause my Bonsai subscription?
                   </AccordionHeader>
                   <AccordionBody>
@@ -669,7 +684,12 @@ export default function Home() {
                   </AccordionBody>
                 </Accordion>
                 <Accordion open={open === 4}>
-                  <AccordionHeader onClick={() => handleOpen(4)}>
+                  <AccordionHeader
+                    onClick={() => handleOpen(4)}
+                    className="maxxs:mr-[20px] maxxs:pr-[20px] maxms:mx-[9%]
+                  mx-[9%] maxmd:text-left maxmd:text-[24px] maxmd:leading-[36px] mt-[20px] font-bold
+                  mb-[10px] text-[24px] leading-[38px]"
+                  >
                     What is your refund policy?
                   </AccordionHeader>
                   <AccordionBody>
