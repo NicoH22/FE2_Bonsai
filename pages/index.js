@@ -39,8 +39,8 @@ export default function Home() {
             {/* LEFT CONTENT */}
             <div className="!bg-scroll w-full max-w-[70rem] mx-auto">
               <div
-                className="pr-0 maxmd:flex-wrap maxlg:mt-0 flex mx-auto w-full mt-[4%]
-                justify-between items-center maxlg:top-0 relative max-w-[36rem]"
+                className="pr-0 flex maxmd:flex-wrap maxlg:mt-0 mx-auto w-full mt-[4%]
+                justify-between items-center maxlg:top-0 relative max-w-[40rem]"
               >
                 <div
                   className="!bg-scroll maxxs:mt-0 maxxs:mx-0 maxmd:mb-5
@@ -56,7 +56,7 @@ export default function Home() {
                 </div>
                 <div
                   className="!bg-scroll maxxs:mt-[50px] justify-center maxmd:mt-[60px]
-                justify-end flex-1 relative flex items-center"
+                justify-end flex relative flex items-center"
                 >
                   <div
                     className="!bg-scroll text-[17px] font-[600] tracking-[1.22px]
@@ -448,7 +448,7 @@ export default function Home() {
                   </div>
                 </div>
                 {/* PLAN DIV 4 */}
-                <div className="!bg-scroll mx-0 mb-0 maxmd:mt-[4.5rem] w-full max-w-none text-[#4c525a]">
+                <div className="!bg-scroll mx-0 mb-0 maxmd:mt-[4.5rem] mt-[5rem] w-full max-w-none text-[#4c525a]">
                   <div className="mt-[20px] mb-[40px] !bg-scroll">
                     <h2
                       className="font-normal !bg-scroll maxmd:text-[1.5rem] text-center
@@ -460,9 +460,9 @@ export default function Home() {
                   </div>
                   <div
                     className="maxmd:py-[20px] mb-[10px] pt-[10px] px-[40px] pb-[5px]
-                  !bg-scroll maxxs:px-[25px] maxmd:flex-col-reverse flex-wrap items-start
+                  !bg-scroll maxxs:px-[25px] maxmd:flex-col-reverse flex-wrap maxmd:items-start
                   content-start maxlg:px-[40px] flex justify-between rounded-[8px] bg-[#fff]
-                  shadow-[0_0_60px_0_rgb(2,4,69,0.05)]"
+                  shadow-[0_0_60px_0_rgb(2,4,69,0.05)] items-center"
                   >
                     <div className="!bg-scroll maxmd:w-full w-[80%] max-w-[600px]">
                       <div
@@ -482,7 +482,7 @@ export default function Home() {
                     >
                       <div
                         className="!bg-scroll maxmd:text-[1.5rem] align-center my-0 text-[2rem]
-                      leading-[140%] font-bold"
+                      leading-[140%] font-bold text-center"
                       >
                         Free
                         <br />
@@ -491,9 +491,9 @@ export default function Home() {
                   </div>
                   <div
                     className="maxmd:py-[20px] mb-[10px] pt-[10px] px-[40px] pb-[5px]
-                  !bg-scroll maxxs:px-[25px] maxmd:flex-col-reverse flex-wrap items-start
+                  !bg-scroll maxxs:px-[25px] maxmd:flex-col-reverse flex-wrap maxmd:items-start
                   content-start maxlg:px-[40px] flex justify-between rounded-[8px] bg-[#fff]
-                  shadow-[0_0_60px_0_rgb(2,4,69,0.05)]"
+                  shadow-[0_0_60px_0_rgb(2,4,69,0.05)] items-center"
                   >
                     <div className="!bg-scroll maxmd:w-full w-[80%] max-w-[600px]">
                       <div
@@ -513,7 +513,7 @@ export default function Home() {
                     >
                       <div
                         className="!bg-scroll maxmd:text-[2.5rem] align-center my-0 text-[2.75rem]
-                      leading-[140%] font-semibold leading-[130%]"
+                      leading-[140%] font-semibold leading-[130%] text-center"
                       >
                         $9
                         <br />
@@ -529,9 +529,9 @@ export default function Home() {
                   {/* ADDONBOX */}
                   <div
                     className="maxmd:py-[20px] mb-[10px] pt-[10px] px-[40px] pb-[5px]
-                    !bg-scroll maxxs:px-[25px] maxmd:flex-col-reverse flex-wrap items-start
+                    !bg-scroll maxxs:px-[25px] maxmd:flex-col-reverse flex-wrap maxmd:items-start
                     content-start maxlg:px-[40px] flex justify-between rounded-[8px] bg-[#fff]
-                    shadow-[0_0_60px_0_rgb(2,4,69,0.05)]"
+                    shadow-[0_0_60px_0_rgb(2,4,69,0.05)] items-center"
                   >
                     <div className="!bg-scroll maxmd:w-full w-[80%] max-w-[600px]">
                       <div
@@ -561,7 +561,7 @@ export default function Home() {
                     >
                       <div
                         className="!bg-scroll maxmd:text-[2.5rem] align-center my-0 text-[2.75rem]
-                      leading-[140%] font-semibold leading-[130%]"
+                      leading-[140%] font-semibold leading-[130%] text-center"
                       >
                         $10
                         <br />
@@ -626,9 +626,9 @@ export default function Home() {
                 <Accordion open={open === 1}>
                   <AccordionHeader
                     onClick={() => handleOpen(1)}
-                    className="maxxs:mr-[20px] maxxs:pr-[20px] maxms:mx-[9%]
-                  mx-[9%] maxmd:text-left maxmd:text-[24px] maxmd:leading-[36px] mt-[20px] font-bold
-                  mb-[10px] text-[24px] leading-[38px]"
+                    className="maxxs:mr-[20px] maxxs:pr-[20px] mb-[10px] text-[24px] leading-[38px]
+                    maxmd:text-left maxmd:text-[24px] maxmd:leading-[36px] mt-[20px] font-bold
+                  "
                   >
                     How does the free trial work?
                   </AccordionHeader>
@@ -649,9 +649,8 @@ export default function Home() {
                 <Accordion open={open === 2}>
                   <AccordionHeader
                     onClick={() => handleOpen(2)}
-                    className="maxxs:mr-[20px] maxxs:pr-[20px] maxms:mx-[9%]
-                  mx-[9%] maxmd:text-left maxmd:text-[24px] maxmd:leading-[36px] mt-[20px] font-bold
-                  mb-[10px] text-[24px] leading-[38px]"
+                    className="maxxs:mr-[20px] maxxs:pr-[20px] maxmd:text-left maxmd:text-[24px]
+                    maxmd:leading-[36px] mt-[20px] font-bold mb-[10px] text-[24px] leading-[38px]"
                   >
                     Can I change plans anytime?
                   </AccordionHeader>
@@ -665,9 +664,8 @@ export default function Home() {
                 <Accordion open={open === 3}>
                   <AccordionHeader
                     onClick={() => handleOpen(3)}
-                    className="maxxs:mr-[20px] maxxs:pr-[20px] maxms:mx-[9%]
-                  mx-[9%] maxmd:text-left maxmd:text-[24px] maxmd:leading-[36px] mt-[20px] font-bold
-                  mb-[10px] text-[24px] leading-[38px]"
+                    className="maxxs:mr-[20px] maxxs:pr-[20px] mb-[10px] text-[24px] leading-[38px]
+                    maxmd:text-left maxmd:text-[24px] maxmd:leading-[36px] mt-[20px] font-bold"
                   >
                     How do I pause my Bonsai subscription?
                   </AccordionHeader>
@@ -686,9 +684,8 @@ export default function Home() {
                 <Accordion open={open === 4}>
                   <AccordionHeader
                     onClick={() => handleOpen(4)}
-                    className="maxxs:mr-[20px] maxxs:pr-[20px] maxms:mx-[9%]
-                  mx-[9%] maxmd:text-left maxmd:text-[24px] maxmd:leading-[36px] mt-[20px] font-bold
-                  mb-[10px] text-[24px] leading-[38px]"
+                    className="maxxs:mr-[20px] maxxs:pr-[20px] maxmd:text-left maxmd:text-[24px]
+                    maxmd:leading-[36px] mt-[20px] font-bold mb-[10px] text-[24px] leading-[38px]"
                   >
                     What is your refund policy?
                   </AccordionHeader>
