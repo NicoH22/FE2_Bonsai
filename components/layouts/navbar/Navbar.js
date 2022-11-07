@@ -575,57 +575,57 @@ export default function Navbar() {
               <div className="maxmd:hidden maxlg:absolute maxlg:left-0 maxlg:right-0 maxlg:top-0 maxlg:bottom-0 maxlg:z-[2] maxlg:hidden maxlg:w-full maxlg:mt-[76px] maxlg:bg-[#fff] hidden">
                 <div className="maxlg:pt-[47px] flex pt-[10px] pb-[10px] flex-col justify-start items-start grow-0 shrink-0 basis-0 bg-[#fff] shadow-[0_1px_60px_0_rgba(2,4,69,0.1)]">
                   <a className="flex w-full min-w-[202px] items-center whitespace-nowrap cursor-pointer max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
-                    <div className="">
+                    <div className="flex w-full my-[10px] py-[10px] pr-[55px] pl-[45px]">
                       <img />
-                      <div className="template-main-nav-inside-dropdown-heading">
+                      <div className="ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">
                         Contract Templates
                       </div>
                     </div>
                   </a>
                   <a className="flex w-full min-w-[202px] items-center whitespace-nowrap cursor-pointer max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
-                    <div className="main-nav-item-wrapper">
+                    <div className="flex w-full my-[10px] py-[10px] pr-[55px] pl-[45px]">
                       <img />
-                      <div className="template-main-nav-inside-dropdown-heading">
+                      <div className="ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">
                         Proposal Templates
                       </div>
                     </div>
                   </a>
                   <a className="flex w-full min-w-[202px] items-center whitespace-nowrap cursor-pointer max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
-                    <div className="main-nav-item-wrapper">
+                    <div className="flex w-full my-[10px] py-[10px] pr-[55px] pl-[45px]">
                       <img />
-                      <div className="template-main-nav-inside-dropdown-heading">
+                      <div className="ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">
                         Invoice Templates
                       </div>
                     </div>
                   </a>
                   <a className="flex w-full min-w-[202px] items-center whitespace-nowrap cursor-pointer max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
-                    <div className="main-nav-item-wrapper">
+                    <div className="flex w-full my-[10px] py-[10px] pr-[55px] pl-[45px]">
                       <img />
-                      <div className="template-main-nav-inside-dropdown-heading">
+                      <div className="ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">
                         Agreement Templates
                       </div>
                     </div>
                   </a>
                   <a className="flex w-full min-w-[202px] items-center whitespace-nowrap cursor-pointer max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
-                    <div className="main-nav-item-wrapper">
+                    <div className="flex w-full my-[10px] py-[10px] pr-[55px] pl-[45px]">
                       <img />
-                      <div className="template-main-nav-inside-dropdown-heading">
+                      <div className="ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">
                         Quote Templates
                       </div>
                     </div>
                   </a>
                   <a className="flex w-full min-w-[202px] items-center whitespace-nowrap cursor-pointer max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
-                    <div className="main-nav-item-wrapper">
+                    <div className="flex w-full my-[10px] py-[10px] pr-[55px] pl-[45px]">
                       <img />
-                      <div className="template-main-nav-inside-dropdown-heading">
+                      <div className="ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">
                         Scope of Work Templates
                       </div>
                     </div>
                   </a>
                   <a className="flex w-full min-w-[202px] items-center whitespace-nowrap cursor-pointer max-w-full inline-block bg-transparent text-[#00b289] no-underline cursor-pointer">
-                    <div className="main-nav-item-wrapper">
+                    <div className="flex w-full my-[10px] py-[10px] pr-[55px] pl-[45px]">
                       <img />
-                      <div className="template-main-nav-inside-dropdown-heading">
+                      <div className="ml-[10px] text-[#292a2d] text-[15px] leading-[18px]">
                         Brief Templates
                       </div>
                     </div>
