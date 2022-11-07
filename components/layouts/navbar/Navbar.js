@@ -9,7 +9,7 @@ export default function Navbar() {
             </a>
             <nav className="translate-x-0 translate-y-0 maxlg:hidden !bg-scroll maxxs:flex maxxs:h-screen maxxs:pt-[105px] maxxs:px-[30px] maxxs:flex-col maxmd:flex maxmd:w-full maxmd:px-[50px] maxmd:flex-col maxlg:left-0 maxlg:top-0 maxlg:right-0 maxlg:bottom-0 maxlg:z-[9998] maxlg:block maxlg:w-screen maxlg:h-full maxlg:max-w-full maxlg:min-h-screen maxlg:pt-[123px] maxlg:px-[40px] maxlg:justify-center maxlg:bg-[#fff] flex w-full max-w-[75%] justify-end items-center relative float-right block">
               <div className="!bg-scroll maxlg:flex-col flex mr-[5%] justify-between">
-                <div className="relative cursor-pointer !bg-scroll touch-manipulation maxlg:mr-0 maxlg:p-y-[16px] maxlg:border-b-1 maxlg:border-b-solid maxlg:border-b-[#c3c3c3] relative flex mr-[40px] justify-between items-center text-[#4c4d5f] text-[17px] leading-[22px]">
+                <div className="relative cursor-pointer !bg-scroll touch-manipulation maxlg:mr-0 maxlg:py-[16px] maxlg:border-b maxlg:border-b-solid maxlg:border-b-[#c3c3c3] relative flex mr-[40px] justify-between items-center text-[#4c4d5f] text-[17px] leading-[22px]">
                   <div className="maxlg:pt-0 maxlg:pb-0 pr-[8px] flex py-[16px] pr-[12px] pl-0 justify-between text-[#4c4d5f] text-[17px] font-[400]">
                     Product
                   </div>
@@ -172,7 +172,7 @@ export default function Navbar() {
                     </div>
                   </div>
                 </div>
-                <div className="relative cursor-pointer maxlg:mr-0 maxlg:pt-[16px] maxlg:pb-[16px] maxlg:border maxlg:border-solid maxlg:border-[#c3c3c3] flex justify-between items-center text-[#4c4d5f] text-[17px] leading-[22px]">
+                <div className="relative cursor-pointer maxlg:mr-0 maxlg:pt-[16px] maxlg:pb-[16px] maxlg:border-b maxlg:border-b-solid maxlg:border-b-[#c3c3c3] flex justify-between items-center text-[#4c4d5f] text-[17px] leading-[22px]">
                   <div className="maxlg:py-0 pr-[8px] flex py-[16px] pr-[12px] pl-0 justify-between text-[#4c4d5f] text-[17px] font-normal">
                     Templates
                   </div>
@@ -447,13 +447,13 @@ export default function Navbar() {
                     </div>
                   </div>
                 </div>
-                <a className="maxlg:mr-0 maxlg:py-[16px] maxlg:border maxlg:border-solid maxlg:border-[#c3c3c3] flex mr-[40px] justify-between justify-between text-[#4c4d5f] text-[17px] leading-[22px] bg-transparent text-[#00b289] no-underline cursor-pointer">
+                <a className="maxlg:mr-0 maxlg:py-[16px] maxlg:border-b maxlg:border-b-solid maxlg:border-b-[#c3c3c3] flex mr-[40px] justify-between justify-between text-[#4c4d5f] text-[17px] leading-[22px] bg-transparent text-[#00b289] no-underline cursor-pointer">
                   Pricing
                 </a>
                 <a className="maxlg:mr-0 maxlg:py-[16px] maxlg:border maxlg:border-solid maxlg:border-[#c3c3c3] hidden flex mr-[40px] justify-between justify-between text-[#4c4d5f] text-[17px] leading-[22px] bg-transparent text-[#00b289] no-underline cursor-pointer">
                   Resource Hub
                 </a>
-                <a className="maxlg:mr-0 maxlg:py-[16px] maxlg:border maxlg:border-solid maxlg:border-[#c3c3c3] flex mr-[40px] justify-between justify-between text-[#4c4d5f] text-[17px] leading-[22px] bg-transparent text-[#00b289] no-underline cursor-pointer">
+                <a className="maxlg:mr-0 maxlg:py-[16px] maxlg:border-b maxlg:border-b-solid maxlg:border-b-[#c3c3c3] flex mr-[40px] justify-between justify-between text-[#4c4d5f] text-[17px] leading-[22px] bg-transparent no-underline cursor-pointer">
                   Reviews
                 </a>
                 <a className="maxlg:mb-[48px] maxlg:mr-0 maxlg:py-[16px] maxlg:border maxlg:border-solid maxlg:border-[#c3c3c3] hidden flex mr-[40px] justify-between justify-between text-[#4c4d5f] text-[17px] leading-[22px] bg-transparent text-[#00b289] no-underline cursor-pointer">
@@ -462,7 +462,7 @@ export default function Navbar() {
                 <img />
               </div>
               <div className="maxlg:mt-[20px] maxlg:flex-col">
-                <a className="px-[22px] border border-solid border-[#00b289] bg-transparent text-[#00b289] maxxs:block maxxs:w-auto maxlg:w-full maxlg:mb-[20px] maxlg:ml-0 maxlg:py-[13px] ml-[17px] pt-[12px] px-[27px] pb-[9px] border border-solid border-[#00b289] rounded bg-[#00b289] text-[#fff] text-[13px] leading-[16px] font-bold text-center tracking-[.6px] uppercase inline-block py-[9px] px-[15px] bg-[#3898ec] text-[#fff] border-0 cursor-pointer rounded-none bg-transparent text-[#00b289] no-underline cursor-pointer">
+                <a className="px-[22px] border border-solid border-[#00b289] bg-transparent text-[#00b289] !bg-scroll maxxs:block maxxs:w-auto maxlg:w-full maxlg:mb-[20px] maxlg:ml-0 maxlg:py-[13px] ml-[17px] pt-[12px] px-[27px] pb-[9px] border border-solid border-[#00b289] rounded bg-[#00b289] text-[#fff] text-[13px] leading-[16px] font-bold text-center tracking-[.6px] uppercase inline-block py-[9px] px-[15px] bg-[#3898ec] text-[#fff] border-0 cursor-pointer rounded-none bg-transparent text-[#00b289] no-underline cursor-pointer">
                   Log In
                 </a>
                 <a className="maxxs:block maxxs:w-auto maxlg:w-full maxlg:mb-[20px] maxlg:ml-0 maxlg:my-[13px] ml-[17px] pt-[12px] px-[27px] pb-[9px] border border-solid border-[#00b289] rounded bg-[#00b289] text-[#fff] text-[13px] leading-[16px] font-bold text-center tracking-[.6px] uppercase inline-block py-[9px] px-[15px] bg-[#3898ec] text-[#fff] border-0 cursor-pointer rounded-none bg-transparent text-[#00b289] no-underline cursor-pointer">
