@@ -68,8 +68,8 @@ export default function Home() {
                   </h1>
                 </div>
                 <div
-                  className="!bg-scroll maxxs:mt-[50px] justify-center maxmd:mt-[60px]
-                justify-end flex relative flex items-center"
+                  className="!bg-scroll maxxs:mt-[50px] maxxs:justify-center maxmd:mt-[60px]
+                maxmd:justify-end maxmd:flex-[1] flex relative flex items-center"
                 >
                   <div
                     className="!bg-scroll text-[17px] font-[600] tracking-[1.22px]

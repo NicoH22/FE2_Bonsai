@@ -133,7 +133,7 @@ export default class Monthly extends Component {
           >
             Professionnal
           </div>
-          <div className="!bg-scroll max-w-[90%]">
+          <div className="!bg-scroll max-w-[90%] text-[13px]">
             Everything a growing independent business needs to thrive.{" "}
           </div>
           <div className="!bg-scroll w-full mt-[20px] border-b-[2px] border-b-solid border-b-[#01b289]">
@@ -453,10 +453,10 @@ export default class Monthly extends Component {
           </div>
           {/* ADDONBOX */}
           <div
-            className="maxmd:py-[20px] mb-[10px] pt-[10px] px-[40px] pb-[5px]
-        !bg-scroll maxxs:px-[25px] maxmd:flex-col-reverse flex-wrap maxmd:items-start
-        content-start maxlg:px-[40px] flex justify-between rounded-[8px] bg-[#fff]
-        shadow-[0_0_60px_0_rgb(2,4,69,0.05)] items-center"
+            className="maxmd:py-[20px] mb-[10px] p-[30px_40px_25px]
+            !bg-scroll maxxs:px-[25px] maxmd:flex-col-reverse flex-wrap maxmd:items-start
+            content-start maxlg:px-[40px] flex justify-between rounded-[8px] bg-[#fff]
+            shadow-[0_0_60px_0_rgb(2,4,69,0.05)] items-center"
           >
             <div className="!bg-scroll maxmd:w-full w-[80%] max-w-[600px]">
               <div

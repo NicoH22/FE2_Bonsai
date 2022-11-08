@@ -33,13 +33,19 @@ shadow-[0_0_68_px_0_rgba(2,4,69,8%)]"
               >
                 $
               </span>
-              24
+              17
               <span
                 className="!bg-scroll my-0 mr-0 maxmd:text-[1.5rem] maxmd:ml-[1.25rem]
       maxlg:my-0 maxlg:mr-0 maxlg:ml-[1.5rem] uppercase font-[400] text-[1.625rem]
       leading-[1.4] font-[700] m-[0.9375rem]"
               >
                 /month
+              </span>
+            </div>
+            <div className="!bg-scroll text-[1rem] text-right">
+              Billed yearly
+              <span>
+                <br />
               </span>
             </div>
           </div>
@@ -133,7 +139,7 @@ shadow-[0_0_68_px_0_rgba(2,4,69,8%)]"
           >
             Professionnal
           </div>
-          <div className="!bg-scroll max-w-[90%]">
+          <div className="!bg-scroll max-w-[90%] text-[13px]">
             Everything a growing independent business needs to thrive.{" "}
           </div>
           <div className="!bg-scroll w-full mt-[20px] border-b-[2px] border-b-solid border-b-[#01b289]">
@@ -147,13 +153,19 @@ shadow-[0_0_68_px_0_rgba(2,4,69,8%)]"
               >
                 $
               </span>
-              39
+              32
               <span
                 className="!bg-scroll my-0 mr-0 maxmd:text-[1.5rem] maxmd:ml-[1.25rem]
       maxlg:my-0 maxlg:mr-0 maxlg:ml-[1.5rem] uppercase font-[400] text-[1.625rem]
       leading-[1.4] font-[700] m-[0.9375rem]"
               >
                 /month
+              </span>
+            </div>
+            <div className="!bg-scroll text-[1rem] text-right">
+              Billed yearly
+              <span>
+                <br />
               </span>
             </div>
           </div>
@@ -197,14 +209,6 @@ shadow-[0_0_68_px_0_rgba(2,4,69,8%)]"
       w-[12px]"
               />
               <div>Client Portal</div>
-            </div>
-            <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
-              <FaCheck
-                className="maxxs:my-0 maxxs:ml-0 maxmd:my-0 maxmd:ml-0 maxlg:my-0 maxlg:ml-0
-      my-0 ml-0 mr-[.625rem] text-[#00b289] border-none align-middle inline-block max-w-full
-      w-[12px]"
-              />
-              <div>QuickBooks Integration</div>
             </div>
             <div className="!bg-scroll flex pb-[18px] items-center text-[#4c4d5f] text-[16px] leading-[23px]">
               <FaCheck
@@ -269,13 +273,19 @@ shadow-[0_0_68_px_0_rgba(2,4,69,8%)]"
               >
                 $
               </span>
-              79
+              52
               <span
                 className="!bg-scroll my-0 mr-0 maxmd:text-[1.5rem] maxmd:ml-[1.25rem]
       maxlg:my-0 maxlg:mr-0 maxlg:ml-[1.5rem] uppercase font-[400] text-[1.625rem]
       leading-[1.4] font-[700] m-[0.9375rem]"
               >
                 /month
+              </span>
+            </div>
+            <div className="!bg-scroll text-[1rem] text-right">
+              Billed yearly
+              <span>
+                <br />
               </span>
             </div>
           </div>
@@ -380,37 +390,53 @@ shadow-[0_0_68_px_0_rgba(2,4,69,8%)]"
     my-0 leading-[140%] maxmd:text-[24px] maxmd:leading-[36px] mt-[20px]
     mb-[10px] text-[#4c525a] text-[32px]"
             >
-              Super charge your work with add-ons
+              Customize your workflow with add-ons
             </h2>
           </div>
           <div
-            className="maxmd:py-[20px] mb-[10px] pt-[10px] px-[40px] pb-[5px]
-  !bg-scroll maxxs:px-[25px] maxmd:flex-col-reverse flex-wrap maxmd:items-start
-  content-start maxlg:px-[40px] flex justify-between rounded-[8px] bg-[#fff]
-  shadow-[0_0_60px_0_rgb(2,4,69,0.05)] items-center"
+            className="maxmd:py-[20px] mb-[10px] p-[30px_40px_25px]
+            !bg-scroll maxxs:px-[25px] maxmd:flex-col-reverse flex-wrap maxmd:items-start
+            content-start maxlg:px-[40px] flex justify-between rounded-[8px] bg-[#fff]
+            shadow-[0_0_60px_0_rgb(2,4,69,0.05)] items-center"
           >
             <div className="!bg-scroll maxmd:w-full w-[80%] max-w-[600px]">
               <div
                 className="font-[600] !bg-scroll maxmd:text-[1rem] my-0 text-[1.375rem]
       leading-[1.4] font-[700]"
               >
-                Collaborators
+                Accounting & Tax Assistant
               </div>
-              <div className="!bg-scroll text-[1rem] font-[300]">
-                Invite other users to specific projects for limited access and
-                functionality.
+              <div className="!bg-scroll text-[1rem] font-[300] m-[0_0_0.625rem_0]">
+                Manage your freelance finances and always be ready for tax
+                season with easy-to-use accounting and tax tools.
               </div>
+              <a
+                className="!bg-scroll uppercase flex text-[13px] font-[600] max-w-full inline-block
+      text-[#00b289] no-underline cursor-pointer"
+              >
+                <div>Learn More</div>
+                <AiOutlineRight
+                  className="text-[#00b289] relative top-[-1] ml-[6px]
+        border-none align-middle inline-block max-w-full self-center"
+                />
+              </a>
             </div>
             <div
               className="maxxs:pt-0 !bg-scroll maxmd:py-[15px] maxmd:justify-start w-[20%]
     py-[36px]"
             >
               <div
-                className="!bg-scroll maxmd:text-[1.5rem] align-center my-0 text-[2rem]
-      leading-[140%] font-bold text-center"
+                className="!bg-scroll maxmd:text-[2.5rem] align-center my-0 text-[2.75rem]
+      leading-[140%] font-semibold leading-[130%] text-center"
               >
-                Free
+                $100
                 <br />
+              </div>
+              <div
+                className="!bg-scroll uppercase text-center text-[.875rem] leading-[133%]
+      font-[400]"
+              >
+                /year
               </div>
             </div>
           </div>
@@ -440,14 +466,14 @@ shadow-[0_0_68_px_0_rgba(2,4,69,8%)]"
                 className="!bg-scroll maxmd:text-[2.5rem] align-center my-0 text-[2.75rem]
       leading-[140%] font-semibold leading-[130%] text-center"
               >
-                $9
+                $90
                 <br />
               </div>
               <div
                 className="!bg-scroll uppercase text-center text-[.875rem] leading-[133%]
       font-[400]"
               >
-                /month
+                /year
               </div>
             </div>
           </div>
@@ -463,39 +489,23 @@ shadow-[0_0_68_px_0_rgba(2,4,69,8%)]"
                 className="font-[600] !bg-scroll maxmd:text-[1rem] my-0 text-[1.375rem]
       leading-[1.4]"
               >
-                Bonsai Tax
+                Collaborators
               </div>
               <div className="!bg-scroll text-[1rem] font-[300] mx-0 ml-0 mr-[.625rem]">
-                Track expenses, identify write-offs, and estimate quarterly
-                taxes easily.
+                Invite other users to specific projects for limited access and
+                functionality.
               </div>
-              <a
-                className="!bg-scroll uppercase flex font-[600] max-w-full inline-block
-      text-[#00b289] no-underline cursor-pointer"
-              >
-                <div>Learn More</div>
-                <AiOutlineRight
-                  className="text-[#00b289] relative top-[-1] ml-[6px]
-        border-none align-middle inline-block max-w-full self-center"
-                />
-              </a>
             </div>
             <div
               className="!bg-scroll maxmd:py-[15px] maxmd:justify-start w-[20%]
     py-[36px]"
             >
               <div
-                className="!bg-scroll maxmd:text-[2.5rem] align-center my-0 text-[2.75rem]
-      leading-[140%] font-semibold leading-[130%] text-center"
+                className="!bg-scroll maxmd:text-[1.5rem] align-center my-0 text-[2rem]
+      leading-[140%] font-bold text-center"
               >
-                $10
+                Free
                 <br />
-              </div>
-              <div
-                className="!bg-scroll uppercase text-center text-[.875rem] leading-[133%]
-      font-[400]"
-              >
-                /month
               </div>
             </div>
           </div>
