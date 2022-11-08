@@ -88,7 +88,7 @@ export default function Home() {
                     >
                       <input
                         type="checkbox"
-                        value="monthly"
+                        value="yearly"
                         id="toggle-yearly"
                         className="sr-only peer"
                         onChange={toggleYearly}
@@ -136,7 +136,8 @@ export default function Home() {
                   className="!bg-scroll maxxs:text-center inline-block w-auto pt-[15px] px-[25px]
                 pb-[13px] rounded-[4px] bg-gradient-to-r from-[#00b289] to-cyan-500 transition-colors
                 duration-[400ms] ease-in delay-[0ms] text-center tracking-[.07em] uppercase inline-block
-                py-[9px] px-[15px] border-none no-underline cursor-pointer text-white"
+                py-[9px] px-[15px] border-none no-underline cursor-pointer text-white hover:bg-gradient-to-r
+                hover:from-cyan-500 hover:to-[#00b289]"
                 >
                   start free
                 </a>

@@ -114,7 +114,7 @@ export default class Monthly extends Component {
               className="!bg-scroll maxmd:text-[15px] w-full py-[22px] px-[25px]
         rounded-[4px] bg-[#00b289] font-bold text-center tracking-[.7px]
         no-underline uppercase inline-block border-none cursor-pointer
-        text-white"
+        text-white hover:bg-[#00a37e]"
             >
               Start Free
             </a>
@@ -236,7 +236,7 @@ export default class Monthly extends Component {
               className="!bg-scroll maxmd:text-[15px] w-full py-[22px] px-[25px]
         rounded-[4px] bg-[#00b289] font-bold text-center tracking-[.7px]
         no-underline uppercase inline-block border-none cursor-pointer
-        text-white"
+        text-white hover:bg-[#00a37e]"
             >
               Start Free
             </a>
@@ -366,7 +366,7 @@ export default class Monthly extends Component {
               className="!bg-scroll maxmd:text-[15px] w-full py-[22px] px-[25px]
         rounded-[4px] bg-[#00b289] font-bold text-center tracking-[.7px]
         no-underline uppercase inline-block border-none cursor-pointer
-        text-white"
+        text-white hover:bg-[#00a37e]"
             >
               Start Free
             </a>
