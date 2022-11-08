@@ -447,25 +447,25 @@ export default function Navbar() {
                     </div>
                   </div>
                 </div>
-                <a className="maxlg:mr-0 maxlg:py-[16px] maxlg:border-b maxlg:border-b-solid maxlg:border-b-[#c3c3c3] flex mr-[40px] justify-between justify-between text-[#4c4d5f] text-[17px] leading-[22px] bg-transparent text-[#00b289] no-underline cursor-pointer">
+                <a className="maxlg:mr-0 maxlg:py-[16px] maxlg:border-b maxlg:border-b-solid maxlg:border-b-[#c3c3c3] flex mr-[40px] justify-between text-[#4c4d5f] text-[17px] leading-[22px] bg-transparent text-[#00b289] no-underline cursor-pointer">
                   Pricing
                 </a>
-                <a className="maxlg:mr-0 maxlg:py-[16px] maxlg:border maxlg:border-solid maxlg:border-[#c3c3c3] hidden flex mr-[40px] justify-between justify-between text-[#4c4d5f] text-[17px] leading-[22px] bg-transparent text-[#00b289] no-underline cursor-pointer">
+                <a className="maxlg:mr-0 maxlg:py-[16px] maxlg:border maxlg:border-solid maxlg:border-[#c3c3c3] hidden flex mr-[40px] justify-between text-[#4c4d5f] text-[17px] leading-[22px] bg-transparent text-[#00b289] no-underline cursor-pointer">
                   Resource Hub
                 </a>
-                <a className="maxlg:mr-0 maxlg:py-[16px] maxlg:border-b maxlg:border-b-solid maxlg:border-b-[#c3c3c3] flex mr-[40px] justify-between justify-between text-[#4c4d5f] text-[17px] leading-[22px] bg-transparent no-underline cursor-pointer">
+                <a className="maxlg:mr-0 maxlg:py-[16px] maxlg:border-b maxlg:border-b-solid maxlg:border-b-[#c3c3c3] flex mr-[40px] justify-between text-[#4c4d5f] text-[17px] leading-[22px] bg-transparent no-underline cursor-pointer">
                   Reviews
                 </a>
-                <a className="maxlg:mb-[48px] maxlg:mr-0 maxlg:py-[16px] maxlg:border maxlg:border-solid maxlg:border-[#c3c3c3] hidden flex mr-[40px] justify-between justify-between text-[#4c4d5f] text-[17px] leading-[22px] bg-transparent text-[#00b289] no-underline cursor-pointer">
+                <a className="maxlg:mb-[48px] maxlg:mr-0 maxlg:py-[16px] maxlg:border maxlg:border-solid maxlg:border-[#c3c3c3] hidden flex mr-[40px] justify-between text-[#4c4d5f] text-[17px] leading-[22px] bg-transparent text-[#00b289] no-underline cursor-pointer">
                   Company
                 </a>
                 <img />
               </div>
               <div className="maxlg:mt-[20px] maxlg:flex-col">
-                <a className="px-[22px] border border-solid border-[#00b289] bg-transparent text-[#00b289] !bg-scroll maxxs:block maxxs:w-auto maxlg:w-full maxlg:mb-[20px] maxlg:ml-0 maxlg:py-[13px] ml-[17px] pt-[12px] px-[27px] pb-[9px] border border-solid border-[#00b289] rounded bg-[#00b289] text-[#fff] text-[13px] leading-[16px] font-bold text-center tracking-[.6px] uppercase inline-block py-[9px] px-[15px] bg-[#3898ec] text-[#fff] border-0 cursor-pointer rounded-none bg-transparent text-[#00b289] no-underline cursor-pointer">
+                <a className="px-[22px] hover:bg-[#00b289] hover:text-[#fff] bg-transparent text-[#00b289] !bg-scroll maxxs:block maxxs:w-auto maxlg:w-full maxlg:mb-[20px] maxlg:ml-0 maxlg:py-[13px] ml-[17px] pt-[12px] px-[27px] pb-[9px] border border-solid border-[#00b289] rounded-[4px] text-[13px] leading-[16px] font-bold text-center tracking-[.6px] uppercase inline-block py-[9px] px-[15px] no-underline cursor-pointer">
                   Log In
                 </a>
-                <a className="maxxs:block maxxs:w-auto maxlg:w-full maxlg:mb-[20px] maxlg:ml-0 maxlg:my-[13px] ml-[17px] pt-[12px] px-[27px] pb-[9px] border border-solid border-[#00b289] rounded bg-[#00b289] text-[#fff] text-[13px] leading-[16px] font-bold text-center tracking-[.6px] uppercase inline-block py-[9px] px-[15px] bg-[#3898ec] text-[#fff] border-0 cursor-pointer rounded-none bg-transparent text-[#00b289] no-underline cursor-pointer">
+                <a className="maxxs:block hover:bg-[#00a37e] maxxs:w-auto maxlg:w-full maxlg:mb-[20px] maxlg:ml-0 maxlg:py-[13px] ml-[17px] pt-[12px] px-[27px] pb-[9px] border border-solid border-[#00b289] rounded bg-[#00b289] text-[#fff] text-[13px] leading-[16px] font-bold text-center tracking-[.6px] uppercase inline-block text-[#fff] border-0 cursor-pointer text-[#00b289] no-underline cursor-pointer">
                   start free
                 </a>
               </div>
