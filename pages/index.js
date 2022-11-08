@@ -191,7 +191,8 @@ export default function Home() {
                     <a
                       className="!bg-scroll maxmd:text-[15px] w-full py-[22px] px-[25px]
                     rounded-[4px] bg-[#00b289] font-bold text-center tracking-[.7px]
-                    no-underline uppercase inline-block border-none cursor-pointer"
+                    no-underline uppercase inline-block border-none cursor-pointer
+                    text-white"
                     >
                       Start Free
                     </a>
@@ -312,7 +313,8 @@ export default function Home() {
                     <a
                       className="!bg-scroll maxmd:text-[15px] w-full py-[22px] px-[25px]
                     rounded-[4px] bg-[#00b289] font-bold text-center tracking-[.7px]
-                    no-underline uppercase inline-block border-none cursor-pointer"
+                    no-underline uppercase inline-block border-none cursor-pointer
+                    text-white"
                     >
                       Start Free
                     </a>
@@ -441,7 +443,8 @@ export default function Home() {
                     <a
                       className="!bg-scroll maxmd:text-[15px] w-full py-[22px] px-[25px]
                     rounded-[4px] bg-[#00b289] font-bold text-center tracking-[.7px]
-                    no-underline uppercase inline-block border-none cursor-pointer"
+                    no-underline uppercase inline-block border-none cursor-pointer
+                    text-white"
                     >
                       Start Free
                     </a>
@@ -586,9 +589,9 @@ export default function Home() {
           <div className="!bg-scroll maxmd:px-[1.25rem] px-[2.5rem]">
             <div className="!bg-scroll w-full max-w-[58rem] mx-auto">
               <div
-                className="maxxs:pt-[40px] maxxs:px-[15px] maxxs:pb-[50px] justify-center
-              maxlg:relative maxlg:z-1 maxlg:py-[3rem] maxlg:py-[2rem] flex flex-wrap text-center
-              py-[4rem] px-[3rem] rounded-[8px] bg-[#f2faff]"
+                className="maxxs:pt-[40px] maxxs:px-[15px] maxxs:pb-[50px] maxxs:justify-center
+              maxlg:relative maxlg:z-1 maxlg:py-[3rem] maxlg:px-[2rem] flex maxlg:flex-wrap maxlg:text-center
+              py-[4rem] px-[3rem] justify-center items-center rounded-[8px] bg-[#f2faff]"
               >
                 <div className="w-[70%] !bg-scroll text-[#4C525A]">
                   <div className="!bg-scroll maxmd:text-[2.5rem] my-0 text-[2.75rem] leading-[130%]">
@@ -602,7 +605,7 @@ export default function Home() {
                   className="!bg-scroll maxxs:text-center inline-block w-auto pt-[15px] px-[25px]
                 pb-[13px] rounded-[4px] bg-gradient-to-r from-[#00b289] to-cyan-500 transition-colors
                 duration-[400ms] ease-in delay-[0ms] text-center tracking-[.07em] uppercase inline-block
-                py-[9px] px-[15px] border-none no-underline cursor-pointer"
+                py-[9px] px-[15px] border-none no-underline cursor-pointer text-white"
                 >
                   start free
                 </a>
