@@ -44,12 +44,14 @@ export default function Home() {
       </Head>
 
       {/* NAVBAR */}
-      {/* <div><Navbar /></div> */}
+      <div>
+        <Navbar />
+      </div>
 
-      {/* <main className="!bg-scroll block overflow-hidden w-full">
+      <main className="!bg-scroll block overflow-hidden w-full">
         <div className="pt-[110px] pb-[40px] !bg-scroll relative">
           <div className="relative z-2 !bg-scroll maxmd:px-[1.25rem] px-10">
-            {// LEFT CONTENT
+            {/* LEFT CONTENT */}
             <div className="!bg-scroll w-full max-w-[70rem] mx-auto">
               <div
                 className="pr-0 flex maxmd:flex-wrap maxlg:mt-0 mx-auto w-full mt-[4%]
@@ -237,7 +239,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </main>*/}
+      </main>
 
       <footer>FOOTER</footer>
     </div>
