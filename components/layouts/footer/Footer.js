@@ -342,84 +342,102 @@ export default function Footer() {
               </Disclosure>
             </div>
             <div className="!bg-scroll">
-              <div className="!bg-scroll cursor-pointer touch-manipulation flex items-center">
-                <a className="!bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer">
+              <Disclosure as="div">
+                <Disclosure.Button className="!bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer flex items-center">
                   Scope of Work Templates
-                </a>
-                <AiOutlineDown />
-              </div>
-              <div className="h-0 !bg-scroll block overflow-hidden">
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
-                    font-[300] tracking-[0.11px] no-underline cursor-pointer"
+                  <AiOutlineDown />
+                </Disclosure.Button>
+                <Transition
+                  enter="transition-transform duration-200 ease-in"
+                  enterFrom="transform translate-y-[-5%] opacity-0"
+                  enterTo="transform translate-y-0 opacity-100"
+                  leave="transition-all duration-[200ms] ease-in"
+                  leaveFrom="transform translate-y-0 opacity-100"
+                  leaveTo="transform translate-y-[-5%] opacity-0"
                 >
-                  Website Development Scope of Work
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                  <Disclosure.Panel className="!bg-scroll">
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Digital Marketing Scope of Work
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Website Development Scope of Work
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Consultant Statement of Work Template
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Digital Marketing Scope of Work
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Software Development Scope of Work
-                </a>
-              </div>
+                    >
+                      Consultant Statement of Work Template
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    font-[300] tracking-[0.11px] no-underline cursor-pointer"
+                    >
+                      Software Development Scope of Work
+                    </a>
+                  </Disclosure.Panel>
+                </Transition>
+              </Disclosure>
             </div>
             <div className="!bg-scroll">
-              <div className="!bg-scroll cursor-pointer touch-manipulation flex items-center">
-                <a className="!bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer">
+              <Disclosure as="div">
+                <Disclosure.Button className="!bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer flex items-center">
                   Quote Templates
-                </a>
-                <AiOutlineDown />
-              </div>
-              <div className="h-0 !bg-scroll block overflow-hidden">
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
-                    font-[300] tracking-[0.11px] no-underline cursor-pointer"
+                  <AiOutlineDown />
+                </Disclosure.Button>
+                <Transition
+                  enter="transition-transform duration-200 ease-in"
+                  enterFrom="transform translate-y-[-5%] opacity-0"
+                  enterTo="transform translate-y-0 opacity-100"
+                  leave="transition-all duration-[200ms] ease-in"
+                  leaveFrom="transform translate-y-0 opacity-100"
+                  leaveTo="transform translate-y-[-5%] opacity-0"
                 >
-                  Freelance Quotation Template
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                  <Disclosure.Panel className="!bg-scroll">
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Web Design Quotation Template
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Freelance Quotation Template
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Graphic Design Quotation Template
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Web Design Quotation Template
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Interior Design Quotation Template
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Graphic Design Quotation Template
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Video Production Quotation Template
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Interior Design Quotation Template
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Social Media Marketing Quotation
-                </a>
-              </div>
+                    >
+                      Video Production Quotation Template
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    font-[300] tracking-[0.11px] no-underline cursor-pointer"
+                    >
+                      Social Media Marketing Quotation
+                    </a>
+                  </Disclosure.Panel>
+                </Transition>
+              </Disclosure>
             </div>
             <a className="!bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer">
               Credit Note Templates
@@ -472,44 +490,53 @@ export default function Footer() {
             </a>
           </div>
           <div className="!bg-scroll">
-            <div className="!bg-scroll cursor-pointer touch-manipulation flex items-center">
-              <a className="!bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer">
+            <Disclosure as="div">
+              <Disclosure.Button className="!bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer flex items-center">
                 Comparisons
-              </a>
-              <AiOutlineDown />
-            </div>
-            <div className="h-0 !bg-scroll block overflow-hidden">
-              <a
-                className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] 
-                    text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer"
+                <AiOutlineDown />
+              </Disclosure.Button>
+              <Transition
+                enter="transition-transform duration-200 ease-in"
+                enterFrom="transform translate-y-[-5%] opacity-0"
+                enterTo="transform translate-y-0 opacity-100"
+                leave="transition-all duration-[200ms] ease-in"
+                leaveFrom="transform translate-y-0 opacity-100"
+                leaveTo="transform translate-y-[-5%] opacity-0"
               >
-                Freshbooks Alternatives
-              </a>
-              <a
-                className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] 
+                <Disclosure.Panel className="!bg-scroll">
+                  <a
+                    className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] 
                     text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer"
-              >
-                Quickbooks Alternatives
-              </a>
-              <a
-                className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] 
+                  >
+                    Freshbooks Alternatives
+                  </a>
+                  <a
+                    className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] 
                     text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer"
-              >
-                Wave vs Quickbooks
-              </a>
-              <a
-                className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] 
+                  >
+                    Quickbooks Alternatives
+                  </a>
+                  <a
+                    className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] 
                     text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer"
-              >
-                Xero vs Quickbooks
-              </a>
-              <a
-                className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] 
+                  >
+                    Wave vs Quickbooks
+                  </a>
+                  <a
+                    className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] 
                     text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer"
-              >
-                Freshbooks vs Quickbooks
-              </a>
-            </div>
+                  >
+                    Xero vs Quickbooks
+                  </a>
+                  <a
+                    className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] 
+                    text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer"
+                  >
+                    Freshbooks vs Quickbooks
+                  </a>
+                </Disclosure.Panel>
+              </Transition>
+            </Disclosure>
           </div>
         </div>
       </div>
