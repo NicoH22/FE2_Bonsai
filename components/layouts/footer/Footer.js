@@ -1,4 +1,5 @@
 import { AiOutlineDown } from "react-icons/ai";
+import { Disclosure, Transition } from "@headlessui/react";
 
 export default function Footer() {
   return (
@@ -91,218 +92,254 @@ export default function Footer() {
               Templates
             </div>
             <div className="!bg-scroll">
-              <div className="!bg-scroll cursor-pointer touch-manipulation flex items-center">
-                <a className="!bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer">
+              <Disclosure as="div">
+                <Disclosure.Button className="!bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer flex items-center">
                   Invoice Templates
-                </a>
-                <AiOutlineDown />
-              </div>
-              <div className="h-0 !bg-scroll block overflow-hidden">
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
-                    font-[300] tracking-[0.11px] no-underline cursor-pointer"
+                  <AiOutlineDown />
+                </Disclosure.Button>
+                <Transition
+                  enter="transition-transform duration-200 ease-in"
+                  enterFrom="transform translate-y-[-5%] opacity-0"
+                  enterTo="transform translate-y-0 opacity-100"
+                  leave="transition-all duration-[200ms] ease-in"
+                  leaveFrom="transform translate-y-0 opacity-100"
+                  leaveTo="transform translate-y-[-5%] opacity-0"
                 >
-                  Invoice Generator
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                  <Disclosure.Panel className="!bg-scroll">
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Blank Invoice Template
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Invoice Generator
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Consultant Invoice Template
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Blank Invoice Template
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Editable Invoice Template
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Consultant Invoice Template
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Graphic Design Invoice
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Editable Invoice Template
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Web Design Invoice
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Graphic Design Invoice
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Contractor Invoice Template
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Web Design Invoice
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Photography Invoice Template
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Contractor Invoice Template
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Self Employed Invoice Template
-                </a>
-              </div>
+                    >
+                      Photography Invoice Template
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    font-[300] tracking-[0.11px] no-underline cursor-pointer"
+                    >
+                      Self Employed Invoice Template
+                    </a>
+                  </Disclosure.Panel>
+                </Transition>
+              </Disclosure>
             </div>
             <div className="!bg-scroll">
-              <div className="!bg-scroll cursor-pointer touch-manipulation flex items-center">
-                <a className="!bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer">
+              <Disclosure as="div">
+                <Disclosure.Button className="!bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer flex items-center">
                   Proposal Templates
-                </a>
-                <AiOutlineDown />
-              </div>
-              <div className="h-0 !bg-scroll block overflow-hidden">
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
-                    font-[300] tracking-[0.11px] no-underline cursor-pointer"
+                  <AiOutlineDown />
+                </Disclosure.Button>
+                <Transition
+                  enter="transition-transform duration-200 ease-in"
+                  enterFrom="transform translate-y-[-5%] opacity-0"
+                  enterTo="transform translate-y-0 opacity-100"
+                  leave="transition-all duration-[200ms] ease-in"
+                  leaveFrom="transform translate-y-0 opacity-100"
+                  leaveTo="transform translate-y-[-5%] opacity-0"
                 >
-                  Website Proposal Template
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                  <Disclosure.Panel className="!bg-scroll">
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Digital Marketing Proposal Template
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Website Proposal Template
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Social Media Marketing Proposal
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Digital Marketing Proposal Template
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Graphic Design Proposal
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Social Media Marketing Proposal
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Freelance Proposal Template
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Graphic Design Proposal
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  SEO Proposal Template
-                </a>
-              </div>
+                    >
+                      Freelance Proposal Template
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    font-[300] tracking-[0.11px] no-underline cursor-pointer"
+                    >
+                      SEO Proposal Template
+                    </a>
+                  </Disclosure.Panel>
+                </Transition>
+              </Disclosure>
             </div>
             <div className="!bg-scroll">
-              <div className="!bg-scroll cursor-pointer touch-manipulation flex items-center">
-                <a className="!bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer">
+              <Disclosure as="div">
+                <Disclosure.Button className="!bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer flex items-center">
                   Contract Templates
-                </a>
-                <AiOutlineDown />
-              </div>
-              <div className="h-0 !bg-scroll block overflow-hidden">
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
-                    font-[300] tracking-[0.11px] no-underline cursor-pointer"
+                  <AiOutlineDown />
+                </Disclosure.Button>
+                <Transition
+                  enter="transition-transform duration-200 ease-in"
+                  enterFrom="transform translate-y-[-5%] opacity-0"
+                  enterTo="transform translate-y-0 opacity-100"
+                  leave="transition-all duration-[200ms] ease-in"
+                  leaveFrom="transform translate-y-0 opacity-100"
+                  leaveTo="transform translate-y-[-5%] opacity-0"
                 >
-                  Online Contract
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                  <Disclosure.Panel className="!bg-scroll">
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Graphic Design Contract
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Online Contract
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Freelance Contract Template
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Graphic Design Contract
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Social Media Marketing Contract
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Freelance Contract Template
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Software Development Contract
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Social Media Marketing Contract
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Web Design Contract
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Software Development Contract
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Video Production Contract
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Web Design Contract
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Public Relations Contract
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Video Production Contract
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Translation Contract
-                </a>
-              </div>
+                    >
+                      Public Relations Contract
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    font-[300] tracking-[0.11px] no-underline cursor-pointer"
+                    >
+                      Translation Contract
+                    </a>
+                  </Disclosure.Panel>
+                </Transition>
+              </Disclosure>
             </div>
             <div className="!bg-scroll">
-              <div className="!bg-scroll cursor-pointer touch-manipulation flex items-center">
-                <a className="!bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer">
+              <Disclosure as="div">
+                <Disclosure.Button className="!bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] font-[300] tracking-[0.11px] no-underline cursor-pointer flex items-center">
                   Agreement Templates
-                </a>
-                <AiOutlineDown />
-              </div>
-              <div className="h-0 !bg-scroll block overflow-hidden">
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
-                    font-[300] tracking-[0.11px] no-underline cursor-pointer"
+                  <AiOutlineDown />
+                </Disclosure.Button>
+                <Transition
+                  enter="transition-transform duration-200 ease-in"
+                  enterFrom="transform translate-y-[-5%] opacity-0"
+                  enterTo="transform translate-y-0 opacity-100"
+                  leave="transition-all duration-[200ms] ease-in"
+                  leaveFrom="transform translate-y-0 opacity-100"
+                  leaveTo="transform translate-y-[-5%] opacity-0"
                 >
-                  Retainer Agreement Template
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                  <Disclosure.Panel className="!bg-scroll">
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Influencer Agreement Template
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Retainer Agreement Template
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Collaboration Agreement Template
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Influencer Agreement Template
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Software Development Agreement
-                </a>
-                <a
-                  className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] maxlg:hidden mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    >
+                      Collaboration Agreement Template
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
                     font-[300] tracking-[0.11px] no-underline cursor-pointer"
-                >
-                  Marketing Agreement Template
-                </a>
-              </div>
+                    >
+                      Software Development Agreement
+                    </a>
+                    <a
+                      className="block mr-0 ml-[8px] !bg-scroll maxmd:text-[16px] mb-[1px] text-[#4c4d5f] leading-[30px] 
+                    font-[300] tracking-[0.11px] no-underline cursor-pointer"
+                    >
+                      Marketing Agreement Template
+                    </a>
+                  </Disclosure.Panel>
+                </Transition>
+              </Disclosure>
             </div>
             <div className="!bg-scroll">
               <div className="!bg-scroll cursor-pointer touch-manipulation flex items-center">
