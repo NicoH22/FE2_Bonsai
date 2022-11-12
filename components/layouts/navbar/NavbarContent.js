@@ -474,10 +474,10 @@ export const NavbarTemplatesNavigation = () => {
   const [hoverNavTemplates, setHoverNavTemplates] = React.useState("Contract");
 
   return (
-    <div className="absolute hidden group-hover:block justify-between mt-2">
+    <div className="absolute hidden group-hover:block justify-between">
       <div className="flex flex-row w-full min-w-[200px]">
         <div className="!bg-scroll flex justify-between">
-          <div className="!bg-scroll flex pt-[10px] pb-[10px] flex-col justify-start items-start flex-[0_0_auto] bg-[#fff] shadow-[0_1px_60px_0_rgba(2,4,69,0.1)]">
+          <div className="!bg-scroll flex pt-[10px] pb-[10px] flex-col justify-start items-start flex-[0_0_auto] bg-[#fff] shadow-[0_1px_60px_0_rgba(2,4,69,0.1)] mt-2">
             <a
               onMouseOver={() => {
                 setHoverNavTemplates("Contract");
@@ -577,7 +577,7 @@ export const NavbarTemplatesNavigation = () => {
               </div>
             </div>
           </div>
-          <div className="!bg-scroll bg-[#fff]">
+          <div className="!bg-scroll bg-[#fff] mt-2">
             <Invoice name={hoverNavTemplates} />
             <Contract name={hoverNavTemplates} />
             <Proposal name={hoverNavTemplates} />
