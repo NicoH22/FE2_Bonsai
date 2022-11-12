@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/layouts/navbar/Navbar.js";
+import Footer from "../components/layouts/footer/Footer.js";
 import { Fragment, useState } from "react";
 import {
   Accordion,
@@ -240,8 +241,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-
-      <footer>FOOTER</footer>
+      <Footer />
     </div>
   );
 }
