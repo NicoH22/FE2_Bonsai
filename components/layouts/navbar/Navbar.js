@@ -2,13 +2,20 @@ import React, { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import {
-  NavbarMainNavigation,
-  NavbarBonsaiWorkflowNavigation,
+  NavbarProductNavigation,
+  NavbarTemplatesNavigation,
 } from "./NavbarContent";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
+
+const navbarHelper = (item) => {
+  if (item.name === "Product") {
+    return <NavbarProductNavigation />;
+  }
+  return <NavbarTemplatesNavigation />;
+};
 
 export default function Navbar() {
   const navigation = [
@@ -51,15 +58,13 @@ export default function Navbar() {
                             className={classNames(
                               item.current
                                 ? "bg-gray-900 text-white"
-                                : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                              item.content ? "" : null,
+                                : "hover:bg-gray-700 hover:text-white",
                               "px-3 py-2 rounded-md text-sm font-medium"
                             )}
-                            aria-current={item.current ? "page" : undefined}
                           >
                             {item.name}
                           </a>
-                          {item.content ? <NavbarMainNavigation /> : null}
+                          {item.content ? navbarHelper(item) : null}
                         </div>
                       ))}
                     </div>
@@ -97,172 +102,7 @@ export default function Navbar() {
           <div className="!bg-scroll w-full max-w-[70rem] mr-auto ml-auto">
             <nav className="hidden translate-x-0 translate-y-0 !bg-scroll maxxs:h-screen maxxs:pt-[105px] maxxs:px-[30px] maxmd:w-full maxmd:px-[50px] maxlg:left-0 maxlg:top-0 maxlg:right-0 maxlg:bottom-0 maxlg:z-[9998] maxlg:w-screen maxlg:h-full maxlg:max-w-full maxlg:min-h-screen maxlg:pt-[123px] maxlg:px-[40px] maxlg:justify-center maxlg:bg-[#fff] w-full max-w-[75%] justify-end items-center float-right">
               <div className="!bg-scroll maxlg:flex-col flex mr-[5%] justify-between">
-                {/* <a className="!bg-scroll maxlg:top-[17px] maxlg:z-1 maxlg:pl-0 top-[12px] maxmd:pl-[10px] bg-transparent text-[#00b289] no-underline cursor-pointer">
-                  <h1>FE2_BONSAI</h1>
-                </a> */}
-                {/* <div className="relative cursor-pointer !bg-scroll touch-manipulation maxlg:mr-0 maxlg:py-[16px] maxlg:border-b maxlg:border-b-solid maxlg:border-b-[#c3c3c3] relative flex mr-[40px] justify-between items-center text-[#4c4d5f] text-[17px] leading-[22px]">
-                  <div className="maxlg:pt-0 maxlg:pb-0 pr-[8px] flex py-[16px] pr-[12px] pl-0 justify-between text-[#4c4d5f] text-[17px] font-[400]">
-                    Product
-                  </div>
-                  <div className="relative mr-0 mr-[6px] bg-50% bg-auto bg-no-repeat bg-transparent absolute top-0 right-0 bottom-0 my-auto ml-auto mr-[20px] w-[1em] h-[1em] not-italic font-normal normal-nums normal-case leading-none "></div>
-                  <div className="hidden absolute left-[-150%] top-full flex justify-between">
-                    <div className="fixed left-0 top-0 right-0 bottom-0 z-[2] hidden w-full h-screen mt-[76px] justify-start items-center">
-                      <div className="maxmd:max-w-none maxmd:items-start maxlg:max-w-none maxlg:items-start maxlg:text-left flex w-full max-w-[352px] min-w-[350px] pt-[40px] pb-0 px-[40px] flex-col justify-center">
-                        <div className="border-transparent maxmd:flex maxmd:flex-col maxmd:items-start maxmd:text-left w-full pb-[40px] border-b border-solid border-transparent">
-                          <div className="!bg-scroll mb-[10px] text-[#292a2d] text-[22px] leading-[26px] ">
-                            Bonsai Workflow
-                          </div>
-                          <div className="!bg-scroll text-[#4d4d4d]">
-                            Look professional, win more clients and manage your
-                            business from one place
-                          </div>
-                        </div>
-                      </div>
-                      <a className="!bg-scroll maxmd:max-w-none maxlg:max-w-none maxlg:items-start text-left flex w-full max-w-[352px] min-w-[350px] pt-[40px] px-[40px] pb-0 flex-col justify-center max-w-full inline-block bg-transparent text-[#00b289] cursor-pointer">
-                        <div className="bg-transparent !bg-scroll maxmd:flex maxmd:flex-col maxmd:items-start maxmd:text-left w-full pb-[40px] border-b border-solid border-transparent">
-                          <div className="!bg-scroll mb-[10px] text-[#292a2d] text-[22px] leading-[26px]">
-                            Bonsai Tax
-                          </div>
-                          <div className="text-[#4d4d4d]">
-                            &quot;Track expenses, maximize tax write-offs, and
-                            estimate taxes without the headache&quot;
-                          </div>
-                        </div>
-                      </a>
-                      <a className="maxmd:max-w-none maxlg:max-w-none maxlg:items-start maxlg:text-left flex w-full max-w-[352px] max-w-[350px] pt-[40px] pb-0 px-[40px] flex-col justify-center w-full inline-block bg-transparent text-[#00b289] cursor-pointer">
-                        <div className="border-transparent maxmd:flex maxmd:flex-col maxmd:items-start maxmd:text-left w-full pb-[40px] border border-solid ">
-                          <div className="mb-[10px] text-[#292a2d] text-[22px] leading-[26px]">
-                            Bonsai Cash
-                          </div>
-                          <div className="text-[#4d4d4d]">
-                            Bonsai&apos;s all in-one financial hub: No fees and
-                            lightning fast payouts
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <div className="opacity-0 maxlg:fixed maxlg:left-0 maxlg:right-0 maxlg:top-0 maxlg:bottom-0 maxlg:z-[2] maxlg:hidden bg-[#fff]">
-                      <div className="maxlg:flex maxlg:flex-col maxlg:grid-cols-1 grid h-full p-[10px] auto-cols-fr gap-[16px] grid-cols-1 grid-rows-[auto]">
-                        <a className="maxlg:min-w-0 flex min-w-[300px] py-[10px] px-[20px] items-center rounded max-w-full inline-block bg-transparent text-[00b289] no-underline cursor-pointer">
-                          <div className="flex items-start">
-                            <img />
-                            <div className="ml-[12px]">
-                              <div className="maxlg:font-semibold mb-[10px] text-[#4d4d4d] text-[15px] leading-[18px]">
-                                Invoices
-                              </div>
-                              <div className="text-[#6d6d6d] text-[13px] leading-[13px] font-normal">
-                                Get paid faster with automatic invoicing, online
-                                payments and more
-                              </div>
-                            </div>
-                          </div>
-                        </a>
-                        <a className="maxlg:min-w-0 flex min-w-[300px] py-[10px] px-[20px] items-center rounded max-w-full inline-block bg-transparent text-[00b289] no-underline cursor-pointer">
-                          <div className="flex items-start">
-                            <img />
-                            <div className="ml-[12px]">
-                              <div className="maxlg:font-semibold mb-[10px] text-[#4d4d4d] text-[15px] leading-[18px]">
-                                Proposals
-                              </div>
-                              <div className="text-[#6d6d6d] text-[13px] leading-[13px] font-normal">
-                                &quot;Create client-winning proposals with open
-                                receipts, custom packages and electronic
-                                approvals&quot;
-                              </div>
-                            </div>
-                          </div>
-                        </a>
-                        <a className="maxlg:min-w-0 flex min-w-[300px] py-[10px] px-[20px] items-center rounded max-w-full inline-block bg-transparent text-[00b289] no-underline cursor-pointer">
-                          <div className="flex items-start">
-                            <img />
-                            <div className="ml-[12px]">
-                              <div className="maxlg:font-semibold mb-[10px] text-[#4d4d4d] text-[15px] leading-[18px]">
-                                Contracts
-                              </div>
-                              <div className="text-[#6d6d6d] text-[13px] leading-[13px] font-normal">
-                                &quot;Protect your business with
-                                fully-customizable contract templates. Edit and
-                                e-sign hassle free.&quot;
-                              </div>
-                            </div>
-                          </div>
-                        </a>
-                        <a className="maxlg:min-w-0 flex min-w-[300px] py-[10px] px-[20px] items-center rounded max-w-full inline-block bg-transparent text-[00b289] no-underline cursor-pointer">
-                          <div className="flex items-start">
-                            <img />
-                            <div className="ml-[12px]">
-                              <div className="maxlg:font-semibold mb-[10px] text-[#4d4d4d] text-[15px] leading-[18px]">
-                                Client CRM
-                              </div>
-                              <div className="text-[#6d6d6d] text-[13px] leading-[13px] font-normal">
-                                Add leads, manage existing clients and track
-                                projects easily fro one place
-                              </div>
-                            </div>
-                          </div>
-                        </a>
-                        <a className="maxlg:min-w-0 flex min-w-[300px] py-[10px] px-[20px] items-center rounded max-w-full inline-block bg-transparent text-[00b289] no-underline cursor-pointer">
-                          <div className="flex items-start">
-                            <img />
-                            <div className="ml-[12px]">
-                              <div className="maxlg:font-semibold mb-[10px] text-[#4d4d4d] text-[15px] leading-[18px]">
-                                Forms & Automations
-                              </div>
-                              <div className="text-[#6d6d6d] text-[13px] leading-[13px] font-normal">
-                                &quot;Boost client intake and automate feedback
-                                with custom web forms and questionnaires&quot;
-                              </div>
-                            </div>
-                          </div>
-                        </a>
-                        <a className="maxlg:min-w-0 flex min-w-[300px] py-[10px] px-[20px] items-center rounded max-w-full inline-block bg-transparent text-[00b289] no-underline cursor-pointer">
-                          <div className="flex items-start">
-                            <img />
-                            <div className="ml-[12px]">
-                              <div className="maxlg:font-semibold mb-[10px] text-[#4d4d4d] text-[15px] leading-[18px]">
-                                Time Tracking
-                              </div>
-                              <div className="text-[#6d6d6d] text-[13px] leading-[13px] font-normal">
-                                &quot;Stay organized with Bonsai&apos;s
-                                all-in-one tracket, automated timesheets and
-                                billing system&quot;
-                              </div>
-                            </div>
-                          </div>
-                        </a>
-                        <a className="maxlg:min-w-0 flex min-w-[300px] py-[10px] px-[20px] items-center rounded max-w-full inline-block bg-transparent text-[00b289] no-underline cursor-pointer">
-                          <div className="flex items-start">
-                            <img />
-                            <div className="ml-[12px]">
-                              <div className="maxlg:font-semibold mb-[10px] text-[#4d4d4d] text-[15px] leading-[18px]">
-                                Accounting
-                              </div>
-                              <div className="text-[#6d6d6d] text-[13px] leading-[13px] font-normal">
-                                &quot;Manage your finances easily with income
-                                reports, expense tracking, tax reminders and
-                                more&quot;
-                              </div>
-                            </div>
-                          </div>
-                        </a>
-                        <a className="maxlg:min-w-0 flex min-w-[300px] py-[10px] px-[20px] items-center rounded max-w-full inline-block bg-transparent text-[00b289] no-underline cursor-pointer">
-                          <div className="flex items-start">
-                            <img />
-                            <div className="ml-[12px]">
-                              <div className="maxlg:font-semibold mb-[10px] text-[#4d4d4d] text-[15px] leading-[18px]">
-                                Task Tracking
-                              </div>
-                              <div className="text-[#6d6d6d] text-[13px] leading-[13px] font-normal">
-                                Stress-free task management with project
-                                templates and integrated timesheets
-                              </div>
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
+                {/* TEST */}
                 <div className="relative cursor-pointer maxlg:mr-0 maxlg:pt-[16px] maxlg:pb-[16px] maxlg:border-b maxlg:border-b-solid maxlg:border-b-[#c3c3c3] flex justify-between items-center text-[#4c4d5f] text-[17px] leading-[22px]">
                   <div className="maxlg:py-0 pr-[8px] flex py-[16px] pr-[12px] pl-0 justify-between text-[#4c4d5f] text-[17px] font-normal">
                     Templates
@@ -328,7 +168,7 @@ export default function Navbar() {
                       </div>
                     </div>
                     <div className="!bg-scroll bg-[#fff]">
-                      <div className="!bg-scroll hidden pt-[10px] pb-[44px] px-[44px] flex-col">
+                      <div className="!bg-scroll pt-[10px] pb-[44px] px-[44px] flex-col">
                         <div className="!bg-scroll mb-[24px]">
                           <div className="mb-[24px] whitespace-nowrap !bg-scroll mb-[10px] text-[#292a2d] text-[22px] leading-[26px]">
                             Featured Invoice Templates
