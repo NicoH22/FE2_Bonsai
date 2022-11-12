@@ -33,17 +33,6 @@ export default function Home() {
 
   return (
     <div>
-      <Head>
-        <title>FE2_Bonsai</title>
-        <meta name="description" content="Bonsai template" />
-        <link rel="icon" href="/favicon.ico" />
-        <link
-          href="https://www.dafontfree.net/embed/YW1lcmlnby1idC1yb21hbiZkYXRhLzQ2L2EvNTkxNDQvQW1lcmlnbyBCVC50dGY"
-          rel="stylesheet"
-          type="text/css"
-        />
-      </Head>
-
       {/* NAVBAR */}
       <div>
         <Navbar />
